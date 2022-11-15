@@ -184,7 +184,7 @@ LanguageCode = "zh-CN"
         logoUrl = "https://zggsong.cn/images/logo.png"
 
   [params.comment]
-      enable = true
+      enable = false
       [params.comment.giscus]
         enable = true
         repo = "zggsong/blog"
