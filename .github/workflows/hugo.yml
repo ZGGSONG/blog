@@ -29,6 +29,5 @@ jobs:
           github_token: ${{ secrets.GITHUBTOKEN }}
           publish_dir: ./public
       
-
       # - name: rm all html
       #   run: find public -name "*.html" | xargs rm -f
