@@ -1,6 +1,8 @@
 ---
 title: "日志与通知 | Golang"
 date: 2022-11-15T13:16:22+08:00
+description: "记录 golang 日志以及通知使用方式"
+featuredImage: ""
 ---
 
 ## 日志

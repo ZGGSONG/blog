@@ -1,11 +1,11 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-tags:
-- default
+description: ""
+featuredImage: ""
 categories:
 - default
-draft: true
-toc: true
+tags:
+- default
 ---
 
