@@ -10,5 +10,20 @@ comment: true
 toc: false
 ---
 
-欢迎访问我的博客，这里主要分享我的一些经验、想法和作品。
-你可以通过 [[**RSS**]](https://zggsong.cn/index.xml) 的方式持续关注我的博客更新
+## New Start
+
+化繁为简，切勿舍本逐末
+
+## Contact
+- __RSS:__ [https://blog.zsong.ml/](//www.zggsong.cn/feed/atom/)
+
+- __E-mail:__ [zggsong@foxmail.com](mailto:zggsong@foxmail.com)
+
+- __Github:__ [https://github.com/zggsong](//github.com/zggsong)
+
+- __Here:__ 有啥想说的也可以直接在本页面留言
+
+## Statement
+
+本博客非明确标注均为原创内容，标注[作者](//www.zggsong.cn)及[链接](//www.zggsong.cn)均可转载
+
