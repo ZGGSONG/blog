@@ -1,4 +1,4 @@
-baseURL = "https://zggsong.cn/"
+baseURL = "https://zggsong.ml/"
 relativeURLs = true
 theme = "LoveIt"
 title = "zggsong"
@@ -181,7 +181,7 @@ LanguageCode = "zh-CN"
       # 出版者信息
       [params.page.seo.publisher]
         name = "zggsong"
-        logoUrl = "https://zggsong.cn/images/logo.png"
+        logoUrl = "https://zggsong.ml/images/logo.png"
 
   [params.comment]
       enable = false
@@ -234,7 +234,7 @@ LanguageCode = "zh-CN"
 [author]
   name = "zggsong"
   email = "zggsong@foxmail.com"
-  link = "https://zggsong.cn"
+  link = "https://zggsong.ml"
 
 [sitemap]
   changefreq = "always"
