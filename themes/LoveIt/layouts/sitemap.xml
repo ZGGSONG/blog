@@ -1,11 +1,7 @@
-{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" ?>" | safeHTML }}
-{{ printf "<?xml-stylesheet type=\"text/xsl\" href=\"/css/sitemap.xsl\" ?>" | safeHTML }}
-<urlset 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+<urlset
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
-    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" >
+    >
     {{- range (where .Data.Pages "Section" "!=" "gallery") -}}
         <url>
             <loc>

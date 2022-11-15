@@ -1,5 +1,3 @@
-{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" ?>" | safeHTML }}
-{{ printf "<?xml-stylesheet type=\"text/css\" href=\"/css/rss.css\" ?>" | safeHTML }}
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>
@@ -11,17 +9,18 @@
         <description>
             {{- .Site.Params.description | default .Site.Title -}}
         </description>
+        <generator>Hugo -- gohugo.io</generator>
         {{- with .Site.LanguageCode -}}
             <language>
                 {{- . -}}
             </language>
         {{- end -}}
-        {{- with .Site.Author -}}
+        {{- with .Site.Author.email -}}
             <managingEditor>
-                {{- $.Site.Author.email }} ({{ $.Site.Author.name -}})
+                {{- . }}{{ with $.Site.Author.name }} ({{ . }}){{ end -}}
             </managingEditor>
             <webMaster>
-                {{- $.Site.Author.email }} ({{ $.Site.Author.name -}})
+                {{- . }}{{ with $.Site.Author.name }} ({{ . }}){{ end -}}
             </webMaster>
         {{- end -}}
         {{- with .Site.Copyright -}}
