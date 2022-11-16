@@ -184,15 +184,14 @@ LanguageCode = "zh-CN"
         logoUrl = "https://zggsong.com/images/logo.png"
 
   [params.comment]
-      enable = false
+      enable = true
       [params.comment.giscus]
         enable = true
         repo = "zggsong/blog"
-        repoId = "R_kgDOIcAt6A="
-        category = "Announcements"
-        categoryId = "DIC_kwDOIcAt6M4CSkaa"
+        repoId = "R_kgDOIcAt6A"
+        category = "Comments"
+        categoryId = "DIC_kwDOIcAt6M4CSlfp"
         mapping = "og:title"
-        loading = "lazy"
 
   [params.seo]
     image = "/images/logo.png"  # 图片 URL
