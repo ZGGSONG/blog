@@ -78,7 +78,7 @@ env_Id
 
 [腾讯云开发参考示例](https://github.com/marketplace/actions/tencent-cloudbase-github-action#%E5%8F%82%E8%80%83%E7%A4%BA%E4%BE%8B)
 
-将如下信息添加进`.github/workflows/ci.yml`末尾即可 [tag type="info"] 注意缩进 [/tag]
+将如下信息添加进`.github/workflows/ci.yml`末尾即可注意缩进
 ```
 - name: Deploy static to Tencent CloudBase
   id: deployStatic
