@@ -60,7 +60,7 @@ LanguageCode = "zh-CN"
   description = "Records for my life and study..."
   author = "zggsong"
   webmanifest = "/site.webmanifest"
-  swjs = "/workbox-sw-cf.js" # https://developer.chrome.com/docs/workbox/modules/workbox-sw/
+  swjs = "/workbox-sw.js" # https://developer.chrome.com/docs/workbox/modules/workbox-sw/
 
   [params.app]
     title = "zggsong"
