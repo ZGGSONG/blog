@@ -1,111 +1,111 @@
 [[blogroll]]
   name = "Webpro"
   url = "https://www.webpro.ltd"
-  avatar = "https://cdn.zggsong.cn/2022/06/01/abdeae6cd2ebc.png"
+  avatar = "/img/friends/webpro.png"
   description = "A rich man...(直译)"
   weight = 1
 
 [[blogroll]]
   name = "LOGI"
   url = "https://logi.im"
-  avatar = "https://cdn.zggsong.cn/2020/07/03/fe69f2c1f5532.jpeg"
+  avatar = "/img/friends/logi.jpeg"
   description = "会点代码的强迫症"
   weight = 2
 
 [[blogroll]]
   name = "纸盒博客"
   url = "https://zhebk.cn"
-  avatar = "https://cdn.zggsong.cn/2020/03/21/294f3cae0ca68.jpg"
+  avatar = "/img/friends/zhebk.jpg"
   description = "我们，渺小到不可一世。"
   weight = 3
 
 [[blogroll]]
   name = "P3TERX ZONE"
   url = "https://p3terx.com"
-  avatar = "https://cdn.zggsong.cn/2020/03/24/b70438ef8939d.jpeg"
+  avatar = "/img/friends/p3terx.jpeg"
   description = "一个萌新的博客"
   weight = 4
 
 [[blogroll]]
   name = "知向前端"
   url = "https://www.yuanqiao.pw"
-  avatar = "https://cdn.zggsong.cn/2020/03/29/af9d60f4536d1.jpg"
+  avatar = "/img/friends/yuanqiao.jpg"
   description = "专注web前端技术, 记录和分享个人生活和技术体会"
   weight = 5
 
 [[blogroll]]
   name = "长野 の BLOG"
   url = "https://rabithua.club"
-  avatar = "https://cdn.zggsong.cn/2020/07/03/5c6fa99a526e2.jpg"
+  avatar = "/img/friends/rabithua.jpg"
   description = "Get busy living, or get busy dying!"
   weight = 7
 
 [[blogroll]]
   name = "Rat's Blog"
   url = "https://www.moerats.com"
-  avatar = "https://cdn.zggsong.cn/2020/07/04/88c973d1a0416.png"
+  avatar = "/img/friends/moerats.png"
   description = "一个资源教程站"
   weight = 8
 
 [[blogroll]]
   name = "Newlearnerの小站"
   url = "https://www.newlearner.site"
-  avatar = "https://cdn.zggsong.cn/2020/07/09/b499c963021b4.png"
+  avatar = "/img/friends/newlearner.jpg"
   description = "「探索未知，记录点滴」"
   weight = 9
 
 [[blogroll]]
   name = "天雨的博客"
   url = "https://blog.irain.in"
-  avatar = "https://cdn.zggsong.cn/2020/07/24/9c5c8bce2da49.ico"
+  avatar = "/img/friends/irain.ico"
   description = "Be smart. Be studious."
   weight = 10
 
 [[blogroll]]
   name = "团子の小屋"
   url = "https://www.imwen.cn"
-  avatar = "https://cdn.zggsong.cn/2020/07/25/cd1e58e1698a4.ico"
+  avatar = "/img/friends/imwen.ico"
   description = "当时年少春衫薄。骑马倚斜桥，满楼红袖招。"
   weight = 11
 
 [[blogroll]]
   name = "云帆沧海"
   url = "https://yf-ch.com/"
-  avatar = "https://cdn.zggsong.cn/2022/07/02/82603a8ccbf9b.png"
+  avatar = "/img/friends/yf-ch.png"
   description = "一个持续更新的个人博客，记录生活、工作、爱好的点点滴滴。"
   weight = 12
 
 [[blogroll]]
   name = "Anleeno の小屋"
   url = "https://www.anleenoxu.top"
-  avatar = "https://cdn.zggsong.cn/2020/08/20/5b00f8590c3a5.jpeg"
+  avatar = "/img/friends/anleenoxu.jpeg"
   description = "九月露湿，待君之前"
   weight = 14
 
 [[blogroll]]
   name = "熊猫小A"
   url = "https://blog.imalan.cn"
-  avatar = "https://cdn.zggsong.cn/2021/04/27/efa61d05ee7b2.jpg"
+  avatar = "/img/friends/imalan.jpg"
   description = ""
   weight = 15
 
 [[blogroll]]
   name = "靳闯博客"
   url = "https://me.jinchuang.org/"
-  avatar = "https://cdn.zggsong.cn/2021/05/09/a67010e03eb22.png"
+  avatar = "/img/friends/jinchuang.png"
   description = "来也匆匆、去也匆匆"
   weight = 16
 
 [[blogroll]]
   name = "徐泽林的博客"
   url = "https://www.zlinblog.cn/"
-  avatar = "https://cdn.zggsong.cn/2021/11/03/518e9c5912f72.jpg"
+  avatar = "/img/friends/zlinblog.jpg"
   description = "唯书籍不朽"
   weight = 17
 
 [[blogroll]]
   name = "胡萝虎"
   url = "https://www.huluohu.com/"
-  avatar = "https://cdn.zggsong.cn/2021/11/29/ce78700a69b5c.png"
+  avatar = "/img/friends/huluohu.png"
   description = "山不我来，我来不山"
   weight = 19
