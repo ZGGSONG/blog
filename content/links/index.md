@@ -15,4 +15,4 @@ layout: links
 - Name: zggsong
 - BIO: Records for my life and study...
 - URL: https://zggsong.com
-- Logo: https://cdn.zggsong.cn/2020/07/08/98d79eaf0d775.png
+- Logo: https://zggsong.com/images/logo.png
