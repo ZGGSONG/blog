@@ -14,3 +14,5 @@ $RECYCLE.BIN/
 config.yaml
 /resources/_gen
 .hugo_build.lock
+
+.local
