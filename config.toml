@@ -1,4 +1,4 @@
-baseURL = "https://zggsong.ml/"
+baseURL = "https://zggsong.com/"
 relativeURLs = true
 theme = "LoveIt"
 title = "zggsong"
@@ -129,8 +129,8 @@ LanguageCode = "zh-CN"
 
     # [params.footer.cdnprovider]
     #   enable = false
-    #   name = "DogeCloud"
-    #   url = "https://www.dogecloud.com/?iuid=2357"
+    #   name = ""
+    #   url = ""
 
   # Section (所有文章) 页面配置
   [params.section]
@@ -181,7 +181,7 @@ LanguageCode = "zh-CN"
       # 出版者信息
       [params.page.seo.publisher]
         name = "zggsong"
-        logoUrl = "https://zggsong.ml/images/logo.png"
+        logoUrl = "https://zggsong.com/images/logo.png"
 
   [params.comment]
       enable = false
@@ -234,7 +234,7 @@ LanguageCode = "zh-CN"
 [author]
   name = "zggsong"
   email = "zggsong@foxmail.com"
-  link = "https://zggsong.ml"
+  link = "https://zggsong.com"
 
 [sitemap]
   changefreq = "always"
