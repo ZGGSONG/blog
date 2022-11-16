@@ -16,7 +16,7 @@ LanguageCode = "zh-CN"
 [menu]
   [[menu.main]]
     identifier = "posts"
-    name = "文章"
+    name = "归档"
     url = "/posts/"
     weight = 1
   [[menu.main]]

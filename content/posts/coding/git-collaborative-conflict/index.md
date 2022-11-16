@@ -1,5 +1,5 @@
 ---
-title: git 多人协作冲突解决
+title: Git 多人协作冲突解决
 date: 2020-10-30T16:53:00+08:00
 lastmod: 2021-04-28T23:56:00+08:00
 description: ""
