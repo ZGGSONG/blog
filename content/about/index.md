@@ -15,7 +15,7 @@ toc: false
 化繁为简，切勿舍本逐末
 
 ## Contact
-- __RSS:__ [https://blog.zsong.ml/](//www.zggsong.cn/feed/atom/)
+- __RSS:__ [https://zggsong.com/index.xml](https://zggsong.com/index.xml)
 
 - __E-mail:__ [zggsong@foxmail.com](mailto:zggsong@foxmail.com)
 
