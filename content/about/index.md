@@ -25,7 +25,7 @@ toc: false
 
 ## Statement
 
-本博客非明确标注均为原创内容，标注[作者](//www.zggsong.cn)及[链接](//www.zggsong.cn)均可转载
+本博客非明确标注均为原创内容，标注[作者](//www.zggsong.com)及[链接](//www.zggsong.com)均可转载
 
 ## Extra
 

@@ -191,7 +191,7 @@ docker run -d -p 9000:9000 --restart=always --name minioDemo\
   minio/minio:RELEASE.2021-06-17T00-10-46Z server /data
 ```
 
-2. 我这边使用的是 [https://github.com/aws/aws-sdk-go-v2](https://github.com/aws/aws-sdk-go-v2) 的 SDK，基本参照 [官方文档](https://aws.github.io/aws-sdk-go-v2/docs/) 进行开发，整体难度也不高，主要是在创建私有 S3 服务的`Client` 创建上有点坑，我也记录写下来过 [详情查看](https://www.zggsong.cn/archives/gostudy_s3_object_url.html) 
+1. 我这边使用的是 [https://github.com/aws/aws-sdk-go-v2](https://github.com/aws/aws-sdk-go-v2) 的 SDK，基本参照 [官方文档](https://aws.github.io/aws-sdk-go-v2/docs/) 进行开发，整体难度也不高，主要是在创建私有 S3 服务的`Client` 创建上有点坑，我也记录写下来过 [详情查看](../s3presignedurl/) 
 
 > 过了段时间再看，发现官方的文档整理了，主要的代码 Github 也没有了 [另一个官方文档](https://docs.aws.amazon.com/sdk-for-go/api/service/s3/#S3.PutObject)
 

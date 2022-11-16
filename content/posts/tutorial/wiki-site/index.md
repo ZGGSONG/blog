@@ -47,8 +47,6 @@ tags:
 
 ## 成功
 
-预览：[https://wiki.zggsong.cn](https://wiki.zggsong.cn)
-
 后期部署至腾讯云开发，国内访问速度大大提升
 ---
 

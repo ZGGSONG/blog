@@ -8,7 +8,7 @@ featuredImage: ""
 
 ## 日志
 
-紧跟 [上一篇文章](https://www.zggsong.cn/archives/listen_file_upload_s3_with_golang.html)，日志是必然需要有的，Go 的 [logrus](https://github.com/Sirupsen/logrus) 日志框架星星最多，简单使用了一下，感觉比老早之前写 C#下的`log4net`好用太多，符合直觉多了。`logrus` `golang` 标准库日志模块完全兼容，直接使用 `log "github.com/sirupsen/logrus" `替换所有日志导入不要太舒服。网上有太多太多关于 `logrus` 的介绍，仅做个人使用记录。[推荐一下](https://mojotv.cn/2018/12/27/golang-logrus-tutorial)
+紧跟 [上一篇文章](../s3-monitoruploadfiles/)，日志是必然需要有的，Go 的 [logrus](https://github.com/Sirupsen/logrus) 日志框架星星最多，简单使用了一下，感觉比老早之前写 C#下的`log4net`好用太多，符合直觉多了。`logrus` `golang` 标准库日志模块完全兼容，直接使用 `log "github.com/sirupsen/logrus" `替换所有日志导入不要太舒服。网上有太多太多关于 `logrus` 的介绍，仅做个人使用记录。[推荐一下](https://mojotv.cn/2018/12/27/golang-logrus-tutorial)
 
 ```go
 //Log
