@@ -16,11 +16,11 @@ tags:
 
 在日常学习过程中，知识细小琐碎，有时甚至只是一句话，却时常有很重要的学习意义，放在博客一方面日后查找起来不方便，另一方面就像 [风也 / KAYGB](https://blog.kaygb.com) 所说：小题大做了。既然是存储日常学习的琐碎知识，那么稳定就是重中之重了，所以 Github 就是首选了。
 
-![图片来自作者博客](https://cdn.zggsong.cn/2020/07/14/c5d103719a588.png)
+![图片来自作者博客](https://cdn.zggsong.cn/2020/07/14/c5d103719a588.png!webp)
 
 [AlanDecode](https://github.com/AlanDecode/) 大佬的主题 [VOID](https://github.com/AlanDecode/Typecho-Theme-VOID) 非常好看，还开发了一系列的插件及工具，而这款静态博客生成器 [Maverick](https://github.com/AlanDecode/Maverick/blob/master/README-zh_CN.md) 实际使用之后，感受十分良好，不过可能对新手不是那么友好，不像 hexo 等有非常丰富的新手教程，而针对~~~Maverick~~~（所有的程序）来说，仔细看源码能解决 __99%__ 的问题。同时 AlanDecode 也开发了一个 wiki 主题 [Kpeler](https://github.com/AlanDecode/Maverick-Theme-Kepler)，在 wiki 系统里面个人认为是{{很漂亮：qieshiyong}}的了。
 
-![wiki](https://cdn.zggsong.cn/2020/07/15/3e4da1162ca0a.png)
+![wiki](https://cdn.zggsong.cn/2020/07/15/3e4da1162ca0a.png!webp)
 
 ## 搭建
 
@@ -69,15 +69,15 @@ env_Id
 ```
 获取 API 秘钥，访问 [https://console.cloud.tencent.com/cam/capi](https://console.cloud.tencent.com/cam/capi) 新建即可
 
-![console](https://cdn.zggsong.cn/2020/07/15/018a5a10b0d1a.png)
+![console](https://cdn.zggsong.cn/2020/07/15/018a5a10b0d1a.png!webp)
 
 控制台搜索进入`云开发 CloudBase`新建一个开发环境复制`env_Id`
 
-![cloudbase](https://cdn.zggsong.cn/2020/07/15/29a854d90b428.png)
+![cloudbase](https://cdn.zggsong.cn/2020/07/15/29a854d90b428.png!webp)
 
 填写`secret`
 
-![secret](https://cdn.zggsong.cn/2020/07/15/4adde56ecaa4b.png)
+![secret](https://cdn.zggsong.cn/2020/07/15/4adde56ecaa4b.png!webp)
 
 配置 action
 
@@ -100,11 +100,11 @@ env_Id
 ```
 等待 action 自动构建，完成后即可在腾讯云开发后台看到如下界面
 
-![file](https://cdn.zggsong.cn/2020/07/15/f0dd5cdaa443b.png)
+![file](https://cdn.zggsong.cn/2020/07/15/f0dd5cdaa443b.png!webp)
 
 最后在腾讯云开发绑定域名即可
 
-![自定义域名](https://cdn.zggsong.cn/2020/07/15/4086b34f7a298.png)
+![自定义域名](https://cdn.zggsong.cn/2020/07/15/4086b34f7a298.png!webp)
 
 > 部署至腾讯云开发参考 [风也 / KAYGB-使用 GitHub Action 自动部署 WIKI 站点（Maverick）至腾讯云开发](https://blog.kaygb.com/194.html)
 

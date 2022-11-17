@@ -58,9 +58,9 @@ https://fastly.jsdelivr.net/gh/zggsong/cdn/blog/layer3.1.1.js
 2.点击下载  
 3.上传至服务器  
 
-![下载](https://cdn.zggsong.cn/2020/07/23/ab6c40beb500b.png)
+![下载](https://cdn.zggsong.cn/2020/07/23/ab6c40beb500b.png!webp)
 
-![选择](https://cdn.zggsong.cn/2020/07/23/2a38a2fa3f787.png)
+![选择](https://cdn.zggsong.cn/2020/07/23/2a38a2fa3f787.png!webp)
 
 
 ## 效果二

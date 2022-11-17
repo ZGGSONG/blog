@@ -18,7 +18,7 @@ tags:
 ### 流程
 
 先放一张整体流程图：
-![gitworkflow](https://cdn.zggsong.cn/2021/10/30/44bb08b08c969.png)
+![gitworkflow](https://cdn.zggsong.cn/2021/10/30/44bb08b08c969.png!webp)
 
 一般的流程都是：
 ```
@@ -27,7 +27,7 @@ git commit -m "your msg"
 git push origin master
 ```
 随后发现报错：
-![pushfail](https://cdn.zggsong.cn/2021/10/30/81ad39f423e96.png)
+![pushfail](https://cdn.zggsong.cn/2021/10/30/81ad39f423e96.png!webp)
 当我们在提交之后就可以使用下面这个命令
 ```
 git reset HEAD^
@@ -41,10 +41,10 @@ git stash [save "your msg"]
 git pull
 git stash pop
 ```
-![resetHEAD^](https://cdn.zggsong.cn/2021/10/30/acfda5a2285e4.png)
-![stash](https://cdn.zggsong.cn/2021/10/30/7e7398d378138.png)
-![pull](https://cdn.zggsong.cn/2021/10/30/71ca2915d42bc.png)
-![conflict](https://cdn.zggsong.cn/2021/10/30/f68f6ab650812.png)
+![resetHEAD^](https://cdn.zggsong.cn/2021/10/30/acfda5a2285e4.png!webp)
+![stash](https://cdn.zggsong.cn/2021/10/30/7e7398d378138.png!webp)
+![pull](https://cdn.zggsong.cn/2021/10/30/71ca2915d42bc.png!webp)
+![conflict](https://cdn.zggsong.cn/2021/10/30/f68f6ab650812.png!webp)
   
 其中：冲突标记`<<<<<<<`与`=======`之间的内容是别人修改的，`=======`与`>>>>>>>`之间的内容是自己修改的  
 

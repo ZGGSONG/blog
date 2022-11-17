@@ -30,4 +30,4 @@ sudo sysctl debug.lowpri_throttle_enabled=1
 
 解除之前是 4 小时，解除限制之后就 10 分钟
 
-![时间机器](https://cdn.zggsong.cn/2020/09/13/27333527f2cdc.png)
+![时间机器](https://cdn.zggsong.cn/2020/09/13/27333527f2cdc.png!webp)

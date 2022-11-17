@@ -41,21 +41,21 @@ tags:
 - 目录映射：可以用域名绑定（后面介绍）的目录作为`服务器目录`： `/www/wwwroot/bitwarden`，`容器目录`: `/data`  ==点击加号添加==
 - 内存：按推荐的就好
 - 提交 
-![添加容器](https://cdn.zggsong.cn/2020/07/27/be4f56b160b5e.png)
+![添加容器](https://cdn.zggsong.cn/2020/07/27/be4f56b160b5e.png!webp)
 
 ### 4、绑定站点
 
 - 域名绑定服务器 ip - 宝塔添加站点 - 填写相关信息 - PHP 选择`纯静态`其他默认即可
 
-![添加站点](https://cdn.zggsong.cn/2020/07/27/5006dd0fffba2.png)
+![添加站点](https://cdn.zggsong.cn/2020/07/27/5006dd0fffba2.png!webp)
 
 - 随后设置 SSL 证书即可（可以直接在宝塔申请，也可以在别的地方申请填入证书和密钥即可），并开启强制`HTTPS`
 
-![证书](https://cdn.zggsong.cn/2020/07/27/7a1a183d44e21.png)
+![证书](https://cdn.zggsong.cn/2020/07/27/7a1a183d44e21.png!webp)
 
 - 开启反向代理，目标 URL:`http://127.0.0.1:5656`修改为自己设置的`服务端口`
 
-![反向代理](https://cdn.zggsong.cn/2020/07/27/ba0b428096ecf.png)
+![反向代理](https://cdn.zggsong.cn/2020/07/27/ba0b428096ecf.png!webp)
 
 ### 5、完成
 
@@ -63,7 +63,7 @@ tags:
 
 > 注意：若注册是发生意外，那请更换除`Google Chrome`外的浏览器注册
 
-![完成](https://cdn.zggsong.cn/2020/07/27/035d4926c6c8e.png)
+![完成](https://cdn.zggsong.cn/2020/07/27/035d4926c6c8e.png!webp)
 
 ## 使用
 
@@ -74,7 +74,7 @@ tags:
 
 > Android、iOS、PC、MacOS 下载对应应用程序绑定你自己的域名登陆即可
 
-![使用](https://cdn.zggsong.cn/2020/07/27/b92676f7a25e9.png)
+![使用](https://cdn.zggsong.cn/2020/07/27/b92676f7a25e9.png!webp)
 
 自动填充
 
@@ -102,7 +102,7 @@ docker run -d --name Pwd \
 
 将`/www/wwwroot/bitwarden/`目录下的`db.sqlite3`或`整个目录`下载至本地即可
 
-![数据库文件](https://cdn.zggsong.cn/2020/07/27/9e21d7d5c4817.png)
+![数据库文件](https://cdn.zggsong.cn/2020/07/27/9e21d7d5c4817.png!webp)
 
 ### 2、自动备份
 
@@ -115,13 +115,13 @@ sqlite3 /www/wwwroot/bitwarden/db.sqlite3 ".backup '/www/wwwroot/bitwarden/backu
 ```
 可以将其添加到宝塔后台的计划任务中去，没有宝塔的可使用`crontab`进行设置，详情参考 [crontab 实例+详解](https://blog.csdn.net/shaobingj126/article/details/5638006)
 
-![计划任务](https://cdn.zggsong.cn/2020/07/27/86c67fb12510d.png)
+![计划任务](https://cdn.zggsong.cn/2020/07/27/86c67fb12510d.png!webp)
 
 恢复的话，恕我愚钝，官方 [wiki](https://github.com/dani-garcia/bitwarden_rs/wiki/Changing-persistent-data-location) 的更改数据库文件路径的方法无法实现（实现了数据库备份咋办#（无语）)，并且感觉思路也有点 emmm~肯定是我的问题。我备份整个目录，打扰了
 
 2. 宝塔面板选择`计划任务`-`备份网站`
 
-![备份](https://cdn.zggsong.cn/2020/07/27/448042473f37e.png)
+![备份](https://cdn.zggsong.cn/2020/07/27/448042473f37e.png!webp)
 
 ### 3、恢复备份
 

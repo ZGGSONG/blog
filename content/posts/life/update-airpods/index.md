@@ -26,14 +26,14 @@ tags:
 
 对比图 |  说明
 :-- | :-- |  :-- 
-![](https://cdn.zggsong.cn/2020/09/13/03c7d14a6bd8f.jpg) | 正面不仔细看差别不大
-![](https://cdn.zggsong.cn/2020/09/13/9898952c78692.jpg) | 侧面字体颜色明显不同
-![](https://cdn.zggsong.cn/2020/09/13/bd5448fcc9497.jpg) | 背面一下就能看出来了，做工差距太大了
-![](https://cdn.zggsong.cn/2020/09/13/723509683f484.jpg) | 耳机本体（左假右真）
-![](https://cdn.zggsong.cn/2020/09/13/69544c41b1984.jpg) | 耳机本体（左假右真）
-![](https://cdn.zggsong.cn/2020/09/13/a90649cfe5ad3.jpg) | 耳机本体（左假右真）
-![](https://cdn.zggsong.cn/2020/09/13/461b0d49b70b6.jpg) | 充电盒，华强北的还是防无线充电盒
-![](https://cdn.zggsong.cn/2020/09/13/77dfc89e76211.jpg) | 开盖对比
+![](https://cdn.zggsong.cn/2020/09/13/03c7d14a6bd8f.jpg!webp) | 正面不仔细看差别不大
+![](https://cdn.zggsong.cn/2020/09/13/9898952c78692.jpg!webp) | 侧面字体颜色明显不同
+![](https://cdn.zggsong.cn/2020/09/13/bd5448fcc9497.jpg!webp) | 背面一下就能看出来了，做工差距太大了
+![](https://cdn.zggsong.cn/2020/09/13/723509683f484.jpg!webp) | 耳机本体（左假右真）
+![](https://cdn.zggsong.cn/2020/09/13/69544c41b1984.jpg!webp) | 耳机本体（左假右真）
+![](https://cdn.zggsong.cn/2020/09/13/a90649cfe5ad3.jpg!webp) | 耳机本体（左假右真）
+![](https://cdn.zggsong.cn/2020/09/13/461b0d49b70b6.jpg!webp) | 充电盒，华强北的还是防无线充电盒
+![](https://cdn.zggsong.cn/2020/09/13/77dfc89e76211.jpg!webp) | 开盖对比
 
 ## BB
 
@@ -41,11 +41,11 @@ tags:
 
 **遗照：**
 
-![AKG Y50](https://cdn.zggsong.cn/2020/09/13/b694695873632.jpg)
+![AKG Y50](https://cdn.zggsong.cn/2020/09/13/b694695873632.jpg!webp)
 
-![MDR-XB950B1](https://cdn.zggsong.cn/2020/09/13/731c9d53aff31.jpg)
+![MDR-XB950B1](https://cdn.zggsong.cn/2020/09/13/731c9d53aff31.jpg!webp)
 
-![捷波朗 45e](https://cdn.zggsong.cn/2020/09/14/90ce82f564554.jpg)
+![捷波朗 45e](https://cdn.zggsong.cn/2020/09/14/90ce82f564554.jpg!webp)
 
 以上这些耳机或咸鱼出掉或送人，主要是没有解决掉兼顾我日常使用，方便携带，偶尔运动等方面的需求，最后再买的 Airpods，就是刚刚好，大多数人应该和我一样，没有那么的在乎音质，AirPods 实实在在解决了我们的痛点，我想着也是这款 TWS 耳机能这么成功的原因吧。
 选购耳机的路上，踩过很多坑，已经爬出来了（以后工作了再入坑#（肿包））。耳机，适合自己的才是最重要的！

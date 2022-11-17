@@ -50,7 +50,7 @@ set-option -g mouse on
 ```
 ---
 
-![](https://cdn.zggsong.cn/2020/06/28/5547af52c7a8c.png)
+![](https://cdn.zggsong.cn/2020/06/28/5547af52c7a8c.png!webp)
 
 关于字体 若实现如上效果，最好使用`nerd fonts`这里推荐一款我一直在使用的 
 [Fira Code Regular Nerd Font](https://github.com/ZGGSONG/vim/raw/master/Fira%20Code%20Regular%20Nerd%20Font%20Complete.ttf")
@@ -92,7 +92,7 @@ tmux ls # 查看所有会话，提倡使用简写形式
 ```
 切换会话也可以使用`ctrl b` + `w`/`s`查看会话列表，按上下键 (⬆︎⬇︎) 或者鼠标滚轮，可选中目标会话，按左右键（⬅➡）可收起或展开会话的窗口，选中目标会话或窗口后，按回车键即可完成切换。
 
-![](https://cdn.zggsong.cn/2020/06/28/11604eef85606.png)
+![](https://cdn.zggsong.cn/2020/06/28/11604eef85606.png!webp)
 
 ### Tmux 快捷指令
 

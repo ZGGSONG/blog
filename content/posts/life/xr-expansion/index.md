@@ -28,12 +28,12 @@ tags:
 
 手机收到后，从 iCloud 恢复下载软件时有一次死机重启，两次 Safari 卡崩外，目前没有其他问题。
 
-![主界面](https://cdn.zggsong.cn/2021/03/27/0325e373ec5a3.png)
+![主界面](https://cdn.zggsong.cn/2021/03/27/0325e373ec5a3.png!webp)
 
-![容量](https://cdn.zggsong.cn/2021/03/27/339bc5e515113.png)
+![容量](https://cdn.zggsong.cn/2021/03/27/339bc5e515113.png!webp)
 
 > 终于可以放心拍了（不过还是会有点担心，iCloud 还是先不关吧）
 
-![相册](https://cdn.zggsong.cn/2021/03/27/86e0b8164d1b4.png)
+![相册](https://cdn.zggsong.cn/2021/03/27/86e0b8164d1b4.png!webp)
 
 > i4 的话-扩容机，也不考虑卖，就这样吧。总之，无论如何扩容需谨慎

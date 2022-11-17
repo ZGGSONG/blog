@@ -147,18 +147,18 @@ U 盘装系统是目 前一个较为方便的重装系统的方法，只需下�
 
 还是建议选择家庭版，支持正版比较好，至于专业版相较于家庭版，也就多一个自带虚拟机和一些其他的小功能，具体的自行百度，对普通用户来说没有影响~
 
-  [1]: https://cdn.zggsong.cn/2020/03/21/88a98aa1055b9.png
-  [2]: https://cdn.zggsong.cn/2020/03/21/1064df196330d.png
-  [3]: https://cdn.zggsong.cn/2020/03/21/5b2f86c31cf52.png
-  [4]: https://cdn.zggsong.cn/2020/03/21/6994d3d529c53.png
-  [5]: https://cdn.zggsong.cn/2020/03/21/93da8c4e5242d.png
-  [6]: https://cdn.zggsong.cn/2020/03/21/24e041554d4e0.jpg
-  [7]: https://cdn.zggsong.cn/2020/03/21/7e4d087aaae52.jpg
-  [8]: https://cdn.zggsong.cn/2020/03/21/741bc9dff84b6.jpg
-  [9]: https://cdn.zggsong.cn/2020/03/21/1756f7b869e0b.jpg
-  [10]: https://cdn.zggsong.cn/2020/03/21/980de6e7563b8.jpg
-  [11]: https://cdn.zggsong.cn/2020/03/21/cf98ee6986ec7.jpg
-  [12]: https://cdn.zggsong.cn/2020/03/21/82a902a7956b1.png
-  [13]: https://cdn.zggsong.cn/2020/03/21/bc357638aff79.png
-  [14]: https://cdn.zggsong.cn/2020/03/21/39abef69e3faf.jpg
-  [15]: https://cdn.zggsong.cn/2020/03/21/cbed88e23b927.jpg
+  [1]: https://cdn.zggsong.cn/2020/03/21/88a98aa1055b9.png!webp
+  [2]: https://cdn.zggsong.cn/2020/03/21/1064df196330d.png!webp
+  [3]: https://cdn.zggsong.cn/2020/03/21/5b2f86c31cf52.png!webp
+  [4]: https://cdn.zggsong.cn/2020/03/21/6994d3d529c53.png!webp
+  [5]: https://cdn.zggsong.cn/2020/03/21/93da8c4e5242d.png!webp
+  [6]: https://cdn.zggsong.cn/2020/03/21/24e041554d4e0.jpg!webp
+  [7]: https://cdn.zggsong.cn/2020/03/21/7e4d087aaae52.jpg!webp
+  [8]: https://cdn.zggsong.cn/2020/03/21/741bc9dff84b6.jpg!webp
+  [9]: https://cdn.zggsong.cn/2020/03/21/1756f7b869e0b.jpg!webp
+  [10]: https://cdn.zggsong.cn/2020/03/21/980de6e7563b8.jpg!webp
+  [11]: https://cdn.zggsong.cn/2020/03/21/cf98ee6986ec7.jpg!webp
+  [12]: https://cdn.zggsong.cn/2020/03/21/82a902a7956b1.png!webp
+  [13]: https://cdn.zggsong.cn/2020/03/21/bc357638aff79.png!webp
+  [14]: https://cdn.zggsong.cn/2020/03/21/39abef69e3faf.jpg!webp
+  [15]: https://cdn.zggsong.cn/2020/03/21/cbed88e23b927.jpg!webp
