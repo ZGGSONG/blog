@@ -15,13 +15,14 @@ toc: false
 化繁为简，切勿舍本逐末
 
 ## Contact
-- __RSS:__ [https://zggsong.com/index.xml](https://zggsong.com/index.xml)
 
-- __E-mail:__ [zggsong@foxmail.com](mailto:zggsong@foxmail.com)
+__RSS:__ [https://zggsong.com/index.xml](https://zggsong.com/index.xml)
 
-- __Github:__ [https://github.com/zggsong](//github.com/zggsong)
+__E-mail:__ [zggsong@foxmail.com](mailto:zggsong@foxmail.com)
 
-- __Here:__ 有啥想说的也可以直接在本页面留言
+__Github:__ [https://github.com/zggsong](//github.com/zggsong)
+
+__Here:__ 有啥想说的也可以直接在本页面留言
 
 ## Statement
 
