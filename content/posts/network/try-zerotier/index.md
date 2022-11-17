@@ -16,16 +16,19 @@ tags:
 很早之前就了解到 Zerotier  
 
 需求：公网环境中访问内网服务  
-解决方案：
-- 申请公网 IP+DDNS+端口映射直接访问
-  - 优点：啥都好
-  - 缺点：基本申请不到
-- frp 等类似工具通过一台有公网 ip 的 VPS 转发所有的流量
-  - 优点：基于自己的水管稳不稳
-  - 缺点：小水管不是速度受限就是流量限制，把内网服务映射到公网，还得添加 ssl 证书，不过也可以给添加泛域名证书
-- Zerotier 可以将不同设备添加到一个同一个虚拟局域网里
-  - 优点：速度基本不受限，服务也没有映射到公网，不用每次开一个服务都需要去解析，做反向代理
-  - 缺点：每台设备都要装 Zerotier 软件
+
+解决方案：  
+1. 申请公网 IP+DDNS+端口映射直接访问  
+优点：啥都好  
+缺点：基本申请不到  
+
+2.frp 等类似工具通过一台有公网 ip 的 VPS 转发所有的流量  
+优点：基于自己的水管稳不稳  
+缺点：小水管不是速度受限就是流量限制，把内网服务映射到公网，还得添加 ssl 证书，不过也可以给添加泛域名证书  
+
+3.Zerotier 可以将不同设备添加到一个同一个虚拟局域网里  
+优点：速度基本不受限，服务也没有映射到公网，不用每次开一个服务都需要去解析，做反向代理  
+缺点：每台设备都要装 Zerotier 软件  
 
 ## 安装
 
@@ -85,27 +88,23 @@ docker run -d           \
   -v /volume1/docker/zerotier-one:/var/lib/zerotier-one zerotier/zerotier-synology:latest
 ```
 
-- 查看节点状态
-
-```
+查看节点状态
+```shell
 docker exec -it zt zerotier-cli status
 ```
 
-- 加入您的网络
-
-```
+加入您的网络
+```shell
 docker exec -it zt zerotier-cli join `你的 NetworkID`
 ```
 
-- 授权网络上的 NAS 然后查看网络状态
-
-```
+授权网络上的 NAS 然后查看网络状态
+```shell
 docker exec -it zt zerotier-cli listnetworks
 ```
 
-- 查看节点信息
-
-```
+查看节点信息
+```shell
 docker exec -it zt zerotier-cli listpeers
 ```
 
@@ -115,11 +114,11 @@ docker exec -it zt zerotier-cli listpeers
 
 ### windows 端安装
 
-- 先去 [官网下载](https://www.zerotier.com/download/) 对应设备的 Zerotier 客户端
+1. 先去 [官网下载](https://www.zerotier.com/download/) 对应设备的 Zerotier 客户端
 
-- 不知道是不是最新版的问题，UI 没有加入虚局域网的选项 (2022-04-25)，直接使用`CMD`执行命令即可，更多可查看 [官方文档](https://zerotier.atlassian.net/wiki/spaces/SD/pages/29065282/Command+Line+Interface+zerotier-cli)：
+2. 不知道是不是最新版的问题，UI 没有加入虚局域网的选项 (2022-04-25)，直接使用`CMD`执行命令即可，更多可查看 [官方文档](https://zerotier.atlassian.net/wiki/spaces/SD/pages/29065282/Command+Line+Interface+zerotier-cli)：
 
-```
+```shell
 #查看
 zerotier-cli status
 
@@ -135,9 +134,9 @@ zerotier-cli listnetworks
 
 ### 其他设备安装
 
-- 其他设备可去官网下载 [Zerotier 下载](https://www.zerotier.com/download/)
-- 添加虚拟局域网 ID
-- 控制台允许
+1. 其他设备可去官网下载 [Zerotier 下载](https://www.zerotier.com/download/)  
+2. 添加虚拟局域网 ID  
+3. 控制台允许  
 
 ## 搭建 Moon 节点
 
@@ -147,9 +146,9 @@ Zerotier Moon 的目的是加速 Zerotier 的连接，让虚拟网络更稳定�
 
 ![moon_compare](https://cdn.zggsong.cn/2022/04/26/6edd7461b644d.png)
 
-- 我是选择我的国内小水管，同样是选择 [docker 安装](https://hub.docker.com/r/jonnyan404/zerotier-moon)
+我是选择我的国内小水管，同样是选择 [docker 安装](https://hub.docker.com/r/jonnyan404/zerotier-moon)
 
-```
+```shell
 #下载镜像
 docker pull jonnyan404/zerotier-moon
 
@@ -159,9 +158,7 @@ mkdir -p /opt/docker/zerotier-moon
 #创建容器（最后为云主机的公网 IP，同时开放 9993 端口）
 docker run --name zerotier-moon -d --restart always -p 9993:9993 -p 9993:9993/udp -v /opt/docker/zerotier-moon:/var/lib/zerotier-one jonnyan404/zerotier-moon -4 47.98.103.241
 ```
-- 随后在`/opt/docker/zerotier-moon`目录下将`moons.d`下载下来保存
-
-- 最后在群晖和 Windows 上分别添加 moon 节点
+在`/opt/docker/zerotier-moon`目录下将`moons.d`下载下来，保存在群晖和 Windows 上分别添加 moon 节点
 
 1. 群晖上比较简单：将保存的`moons.d`目录放到群晖 Zerotier 宿主机的目录下后重启容器即可  
 
@@ -170,11 +167,12 @@ docker run --name zerotier-moon -d --restart always -p 9993:9993 -p 9993:9993/ud
 2. windows 添加 moon 节点，首先在 moon 服务器服务器获取`moon_id`，其实就是保存的`moons.d`目录下的文件名去除前 6 个 0 的字符串  
 也可以通过下面的命令查看`moon_id`
 
-```
+```shell
 docker logs zerotier-moon
 ```
+
 Cmd 或者 Terminal 中输入
-```
+```shell
 #添加 moon 节点
 zerotier-cli orbit moon_id moon_id
 
@@ -186,15 +184,17 @@ zerotier-cli listnetpeers
 ## 总结
 
 简单测试了一下，基本能跑满带宽，不过目前实际使用的不多，问就是隔离居家办公，后续有啥心得体会再来掰扯掰扯。
-- 4G  
+
+4G 速度
 
 ![4G](https://cdn.zggsong.cn/2022/04/25/79ed213924339.png)
 
-- 有线连接  
+有线连接速度  
 
 ![有线连接](https://cdn.zggsong.cn/2022/04/26/3fac8776bbf44.png)
 
 **参考**
+
 - [轻松实现无公网 IP 高速远程访问 NAS！zerotier 从原理到实践](https://post.smzdm.com/p/apzd4mww/) 
 - [黑群晖（DSM7）使用 docker 挂载 zerotier one 实现内网穿透](https://blog.csdn.net/cmf1055/article/details/124236282) 
 - [docker 一键搭建 zerotier-moon 节点 ](https://www.cnblogs.com/jonnyan/p/12566647.html)
