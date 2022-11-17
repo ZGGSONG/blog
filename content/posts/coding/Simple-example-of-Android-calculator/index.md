@@ -16,7 +16,7 @@ tags:
 
 效果图如下
 
-![计算器](https://cdn.zggsong.cn/2020/07/15/57a910e871698.jpg))
+![计算器](https://cdn.zggsong.cn/2020/07/15/57a910e871698.jpg)
 
 布局文件
 ```xml
