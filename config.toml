@@ -204,7 +204,7 @@ LanguageCode = "zh-CN"
     # 可以在你的项目下相同路径存放你自己的数据文件:
     # "assets/data/cdn/"
     # data = "none.yml"
-    prefix = "https://s2.upyun.cdn.zggsong.cn"
+    prefix = ""
 
 [markup]
   # 语法高亮设置 (https://gohugo.io/content-management/syntax-highlighting)
