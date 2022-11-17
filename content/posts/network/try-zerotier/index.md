@@ -17,8 +17,9 @@ tags:
 
 需求：公网环境中访问内网服务  
 
-解决方案：  
-1. 申请公网 IP+DDNS+端口映射直接访问  
+解决方案:
+
+1.申请公网 IP+DDNS+端口映射直接访问  
 优点：啥都好  
 缺点：基本申请不到  
 
@@ -114,9 +115,8 @@ docker exec -it zt zerotier-cli listpeers
 
 ### windows 端安装
 
-1. 先去 [官网下载](https://www.zerotier.com/download/) 对应设备的 Zerotier 客户端
-
-2. 不知道是不是最新版的问题，UI 没有加入虚局域网的选项 (2022-04-25)，直接使用`CMD`执行命令即可，更多可查看 [官方文档](https://zerotier.atlassian.net/wiki/spaces/SD/pages/29065282/Command+Line+Interface+zerotier-cli)：
+去 [官网下载](https://www.zerotier.com/download/) 对应设备的 Zerotier 客户端
+> 不知道是不是最新版的问题，UI 没有加入虚局域网的选项 (2022-04-25)，直接使用`CMD`执行命令即可，更多可查看 [官方文档](https://zerotier.atlassian.net/wiki/spaces/SD/pages/29065282/Command+Line+Interface+zerotier-cli)：
 
 ```shell
 #查看
@@ -134,9 +134,9 @@ zerotier-cli listnetworks
 
 ### 其他设备安装
 
-1. 其他设备可去官网下载 [Zerotier 下载](https://www.zerotier.com/download/)  
-2. 添加虚拟局域网 ID  
-3. 控制台允许  
+1.其他设备可去官网下载 [Zerotier 下载](https://www.zerotier.com/download/)  
+2.添加虚拟局域网 ID  
+3.控制台允许  
 
 ## 搭建 Moon 节点
 
@@ -160,11 +160,11 @@ docker run --name zerotier-moon -d --restart always -p 9993:9993 -p 9993:9993/ud
 ```
 在`/opt/docker/zerotier-moon`目录下将`moons.d`下载下来，保存在群晖和 Windows 上分别添加 moon 节点
 
-1. 群晖上比较简单：将保存的`moons.d`目录放到群晖 Zerotier 宿主机的目录下后重启容器即可  
+1.群晖上比较简单：将保存的`moons.d`目录放到群晖 Zerotier 宿主机的目录下后重启容器即可  
 
 ![moons.d](https://cdn.zggsong.cn/2022/04/25/120625605d6f3.png)
 
-2. windows 添加 moon 节点，首先在 moon 服务器服务器获取`moon_id`，其实就是保存的`moons.d`目录下的文件名去除前 6 个 0 的字符串  
+2.windows 添加 moon 节点，首先在 moon 服务器服务器获取`moon_id`，其实就是保存的`moons.d`目录下的文件名去除前 6 个 0 的字符串  
 也可以通过下面的命令查看`moon_id`
 
 ```shell
