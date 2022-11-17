@@ -32,12 +32,17 @@ tags:
 
 > 一些个人踩过的坑，总之就是看文档看文档看文档！
 
-1. Maverick 只是一款静态网页生成器，需要搭配主题（默认自带一款博客主题）使用，生成的静态网站文件都在`dist`（或 test_dist) 下
-2. `python`版本要高于 3.5，而一般 python 都是 2.7 版本，所以需要使用`python3`，同理`pip3`。当然这只是对 Maverick 的一些说明
-3. 填写`token`时名字必须是`PERSONAL_TOKEN`（对，我就是那个不仔细看说明的人/ku）
-4. 发布至`*.github.io`要求必须是发布至`master`分支，只需要修改仓库名为`*.github.io`并且修改`.github/workflows/ci.yml`中发布分支名为`master`即可
-5. 读文档！！！修改发布分支名，勿忘修改 cdn 分支名
-6. site_prefix
+Maverick 只是一款静态网页生成器，需要搭配主题（默认自带一款博客主题）使用，生成的静态网站文件都在`dist`（或 test_dist) 下
+
+`python`版本要高于 3.5，而一般 python 都是 2.7 版本，所以需要使用`python3`，同理`pip3`。当然这只是对 Maverick 的一些说明
+
+填写`token`时名字必须是`PERSONAL_TOKEN`（对，我就是那个不仔细看说明的人/ku）
+
+发布至`*.github.io`要求必须是发布至`master`分支，只需要修改仓库名为`*.github.io`并且修改`.github/workflows/ci.yml`中发布分支名为`master`即可
+
+读文档！！！修改发布分支名，勿忘修改 cdn 分支名
+
+site_prefix: 
 - 默认：site_prefix = "/Blog-With-GitHub-Boilerplate/"
 - 网站：//*.github.io/Blog-With-GitHub-Boilerplate/
 - 修改 1：site_prefix = "/"
@@ -62,19 +67,19 @@ secret_Id
 secret_Key
 env_Id
 ```
-- 获取 API 秘钥，访问 [https://console.cloud.tencent.com/cam/capi](https://console.cloud.tencent.com/cam/capi) 新建即可
+获取 API 秘钥，访问 [https://console.cloud.tencent.com/cam/capi](https://console.cloud.tencent.com/cam/capi) 新建即可
 
 ![console](https://cdn.zggsong.cn/2020/07/15/018a5a10b0d1a.png)
 
-- 控制台搜索进入`云开发 CloudBase`新建一个开发环境复制`env_Id`
+控制台搜索进入`云开发 CloudBase`新建一个开发环境复制`env_Id`
 
 ![cloudbase](https://cdn.zggsong.cn/2020/07/15/29a854d90b428.png)
 
-- 填写`secret`
+填写`secret`
 
 ![secret](https://cdn.zggsong.cn/2020/07/15/4adde56ecaa4b.png)
 
-- 配置 action
+配置 action
 
 [腾讯云开发参考示例](https://github.com/marketplace/actions/tencent-cloudbase-github-action#%E5%8F%82%E8%80%83%E7%A4%BA%E4%BE%8B)
 
@@ -97,7 +102,7 @@ env_Id
 
 ![file](https://cdn.zggsong.cn/2020/07/15/f0dd5cdaa443b.png)
 
-- 最后在腾讯云开发绑定域名即可
+最后在腾讯云开发绑定域名即可
 
 ![自定义域名](https://cdn.zggsong.cn/2020/07/15/4086b34f7a298.png)
 
