@@ -22,8 +22,6 @@ __E-mail:__ [zggsong@foxmail.com](mailto:zggsong@foxmail.com)
 
 __Github:__ [https://github.com/zggsong](//github.com/zggsong)
 
-__Here:__ 有啥想说的也可以直接在本页面留言
-
 ## Statement
 
 本博客非明确标注均为原创内容，标注[作者](//www.zggsong.com)及[链接](//www.zggsong.com)均可转载
