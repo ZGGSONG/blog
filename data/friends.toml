@@ -108,4 +108,11 @@
   url = "https://www.huluohu.com/"
   avatar = "/img/friends/huluohu.png"
   description = "山不我来，我来不山"
+  weight = 18
+
+[[blogroll]]
+  name = "Perry's"
+  url = "https://perrys.cc"
+  avatar = "/img/friends/perrys.png"
+  description = "我会在夏天开放吗"
   weight = 19
