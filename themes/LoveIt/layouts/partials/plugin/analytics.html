@@ -12,7 +12,7 @@
             (function() {
             var u = {{ $analytics.matomo.url }};
             _paq.push(['setTrackerUrl', u+'matomo.php']);
-            _paq.push(['setSiteId', '{{ . }}']);
+            _paq.push(['setSiteId', {{ . }}]);
             var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
             g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
             })();
@@ -20,4 +20,8 @@
         <!-- End Matomo Code -->
     {{- end -}}
 
+    {{- /* Umami Analytics */ -}}
+    {{- with $analytics.umami.id -}}
+        <script async defer data-website-id="{{ . }}" src="{{ $analytics.umami.url }}"></script>
+    {{- end -}}
 {{- end -}}

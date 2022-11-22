@@ -203,8 +203,12 @@ LanguageCode = "zh-CN"
       enable = true
       # Matomo Analytics
       [params.analytics.matomo]
-        url = "https://b.zggsong.cn/"
-        id = 2
+        url = ""
+        id = ""
+      # Umami Analytics
+      [params.analytics.umami]
+        url = "https://ana.zggsong.cn/umami.js"
+        id = "6f849a79-c149-4e9d-9e58-185a60469518"
 
   [params.cdn]
     # CDN 数据文件名称, 默认不启用
