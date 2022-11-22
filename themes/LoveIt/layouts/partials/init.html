@@ -18,6 +18,7 @@
     {{- end -}}
     {{- .Scratch.Set "cdn" $cdn -}}
     {{- .Scratch.Set "fingerprint" .Site.Params.fingerprint -}}
+    {{- .Scratch.Set "analytics" .Site.Params.analytics -}}
 {{- else if eq .Site .Sites.First -}}
     {{- warnf "Current environment is \"development\". The \"CDN\" and \"fingerprint\" will be disabled.\n当前运行环境是 \"development\". \"CDN\" 和 \"fingerprint\" 不会启用.\n" -}}
 {{- end -}}

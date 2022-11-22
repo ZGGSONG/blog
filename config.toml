@@ -198,6 +198,14 @@ LanguageCode = "zh-CN"
     image = "/images/logo.png"  # 图片 URL
     thumbnailUrl = "/images/logo.png"  # 缩略图 URL
 
+  #  网站分析配置
+  [params.analytics]
+      enable = true
+      # Matomo Analytics
+      [params.analytics.matomo]
+        url = "https://b.zggsong.cn"
+        id = 2
+
   [params.cdn]
     # CDN 数据文件名称, 默认不启用
     # 位于 "themes/LoveIt/assets/data/cdn/" 目录
