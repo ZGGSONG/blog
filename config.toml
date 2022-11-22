@@ -203,7 +203,7 @@ LanguageCode = "zh-CN"
       enable = true
       # Matomo Analytics
       [params.analytics.matomo]
-        url = "https://b.zggsong.cn"
+        url = "https://b.zggsong.cn/"
         id = 2
 
   [params.cdn]
