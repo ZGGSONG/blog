@@ -10,7 +10,7 @@
             _paq.push(['trackPageView']);
             _paq.push(['enableLinkTracking']);
             (function() {
-            u = {{ $analytics.matomo.url }}
+            var u = {{ $analytics.matomo.url }}
             _paq.push(['setTrackerUrl', u+'/matomo.php']);
             _paq.push(['setSiteId', {{ . }}]);
             var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
