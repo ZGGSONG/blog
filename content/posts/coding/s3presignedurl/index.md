@@ -7,8 +7,8 @@ featuredImage: ""
 categories:
 - coding
 tags:
-- golang
-- s3
+- Golang
+- S3
 ---
 
 ## 前言

@@ -10,8 +10,6 @@ toc: false
 
 ## Introduce
 
-化繁为简，切勿舍本逐末
-
 努力写 C# 和 Golang 的菜鸟，努力成为会写客户端的全栈工程师，同时也感觉 Rust 有点意思，就是学起来比较费头发，go on...
 
 ## Contact

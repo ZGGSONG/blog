@@ -15,7 +15,7 @@ C# 写客户端的时候，WinForm 真的很折磨，WPF 越写越顺手，最�
 
 ## 问题
 
-在 visual studio 创建一个 WPF 项目后，可以在 App.xaml 中直接全局注册想使用的资源文件，但是在 WinForm 中嵌套进 WPF 程序时，没有这个 App.xaml 全局注册资源的地方
+在 Visual Studio 创建一个 WPF 项目后，可以在 App.xaml 中直接全局注册想使用的资源文件，但是在 WinForm 中嵌套进 WPF 程序时，没有这个 App.xaml 全局注册资源的地方
 
 ## 解决
 

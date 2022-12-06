@@ -7,7 +7,7 @@ featuredImage: ""
 categories:
 - coding
 tags:
-- golang
+- Golang
 ---
 
 ## 前言
