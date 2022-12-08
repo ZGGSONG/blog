@@ -54,8 +54,63 @@ Application.Current.Resources.MergedDictionaries
 </UserControl.Resources>
 ```
 
+---
+
+## 补充
+
+在写的时候发现引入第三方控件库时出现了报错无法找到 dll 组件的位置，后排查后发现原因在于我得项目结构时 WinForm 程序当作启动项目，WPF 程序作为被动项目引入，在导入第三方库时仅仅在 WPF 项目上引入会报错  
+解决办法也很简单：直接在启动项目中引入第三方空间库即可（不需要在启动项目中做其他操作）
+
+## WPF 引入资源的几种方式
+
+### XAML 引入资源
+
+#### 窗口、控件处引入
+
+```XAML
+<UserControl.Resources>
+     <ResourceDictionary>
+        <ResourceDictionary.MergedDictionaries>
+            <!--  相对路径引入内部资源  -->
+            <ResourceDictionary Source="/styles/Dictionary.xaml"/>
+            <!--  相对路径引入外部资源  -->
+            <ResourceDictionary Source="/Plugin.Demo;component/styles/Dictionary.xaml"/>
+            <!--  绝对路径外部资源  -->
+            <ResourceDictionary Source="pack://application:,,,/Plugin.Demo;component/styles/Dictionary.xaml"/>
+        </ResourceDictionary.MergedDictionaries>
+     </ResourceDictionary>
+</UserControl.Resources>
+```
+
+#### 全局引入
+
+```XAML
+<Application.Resources>
+    <ResourceDictionary>
+        <ResourceDictionary.MergedDictionaries>
+            <ResourceDictionary Source="pack://application:,,,/lugin.Demo;component/styles/Dictionary.xaml"/>
+        </ResourceDictionary.MergedDictionaries>
+    </ResourceDictionary>
+</Application.Resources>
+```
+
+### 代码引入
+
+```C#
+var app = Application.Current.Resources.MergedDictionaries;
+
+//绝对路径（实测报错）
+var rDic = new System.Windows.ResourceDictionary();
+rDic.Source = new Uri("pack://application:,,,/HandyControl;component/Themes/Theme.xaml", UriKind.Absolute);
+app.Add(rDic);
+
+//相对路径
+app.Add((ResourceDictionary)Application.LoadComponent(new Uri("/HandyControl;component/Themes/SkinDefault.xaml", UriKind.Relative)));
+```
+
 ## 参考
 
 [「WPF 中资源字典（ResourceDictionary）的使用」](https://blog.csdn.net/SQWH_SSGS/article/details/109717719)  
 [「关于 c＃：Application.Current 和 App.Current 为 null」](https://www.codenong.com/39644256/)  
 [「Winform 中使用 WPF Control（带资源）」](https://www.cnblogs.com/zhaofeng-shu33/p/11204105.html)
+[「WPF 引用资源字典的几种方式」](https://blog.csdn.net/vonlycn/article/details/115920929)
