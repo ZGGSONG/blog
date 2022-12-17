@@ -1,5 +1,5 @@
 ---
-title: "Windows 创建本地仓库"
+title: "Windows 创建本地 git 仓库"
 date: 2021-12-17T14:26:55+08:00
 description: "简单记录一下Windows搭建本地仓库"
 featuredImage: ""
