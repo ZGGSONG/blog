@@ -1,11 +1,12 @@
 ---
-title: "WinForm 中嵌套 WPF 添加资源字典"
+title: "WinForm 中嵌套 WPF 添加资源字典 | C#"
 date: 2022-12-06T13:25:52+08:00
 description: ""
 featuredImage: ""
 categories:
 - coding
 tags:
+- C#
 - WPF
 ---
 
