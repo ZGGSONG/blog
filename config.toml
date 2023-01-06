@@ -137,7 +137,7 @@ LanguageCode = "zh-CN"
       enable = true
       name = "Travelling"
       url = "https://www.travellings.cn/go.html"
-      useimg = true
+      useimg = false
       img = "https://cdn.zggsong.cn/2023/01/06/19d329da7f9ae.svg"
       # img = "https://www.travellings.cn/assets/logo.svg"
 
