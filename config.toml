@@ -40,17 +40,22 @@ LanguageCode = "zh-CN"
     url = "/about/"
     weight = 5
   [[menu.main]]
+    identifier = "travel"
+    name = "开往"
+    url = "https://www.travellings.cn/go.html"
+    weight = 6
+  [[menu.main]]
     identifier = "rss"
     pre = "<i class='icon-rss'></i>"
     url = "/index.xml"
     title = "RSS"
-    weight = 6
+    weight = 7
   [[menu.main]]
     identifier = "github"
     pre = "<i class='icon-github'></i>"
     url = "https://github.com/zggsong"
     title = "GitHub"
-    weight = 7
+    weight = 8
 
 [params]
   defaultTheme = "auto"  # 网站默认主题 ("light", "dark", "auto")
