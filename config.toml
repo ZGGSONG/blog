@@ -40,22 +40,17 @@ LanguageCode = "zh-CN"
     url = "/about/"
     weight = 5
   [[menu.main]]
-    identifier = "travel"
-    name = "开往"
-    url = "https://www.travellings.cn/go.html"
-    weight = 6
-  [[menu.main]]
     identifier = "rss"
     pre = "<i class='icon-rss'></i>"
     url = "/index.xml"
     title = "RSS"
-    weight = 7
+    weight = 6
   [[menu.main]]
     identifier = "github"
     pre = "<i class='icon-github'></i>"
     url = "https://github.com/zggsong"
     title = "GitHub"
-    weight = 8
+    weight = 7
 
 [params]
   defaultTheme = "auto"  # 网站默认主题 ("light", "dark", "auto")
@@ -137,6 +132,14 @@ LanguageCode = "zh-CN"
     #   enable = false
     #   name = ""
     #   url = ""
+
+    [params.footer.customer]
+      enable = true
+      name = "Travelling"
+      url = "https://www.travellings.cn/go.html"
+      useimg = true
+      img = "https://cdn.zggsong.cn/2023/01/06/19d329da7f9ae.svg"
+      # img = "https://www.travellings.cn/assets/logo.svg"
 
   # Section (所有文章) 页面配置
   [params.section]

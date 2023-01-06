@@ -44,6 +44,16 @@
                     {{- end -}}
                 {{- end -}}
 
+                {{- if .Site.Params.footer.customer -}}
+                    {{- if .Site.Params.footer.customer.enable -}}
+                        {{- if .Site.Params.footer.customer.useimg -}}
+                            &nbsp;|&nbsp;<span class="customer"><a href="{{ .Site.Params.footer.customer.url }}" target="_blank"><img src="{{ .Site.Params.footer.customer.img }}" alt="{{ .Site.Params.footer.customer.name }}" height="18" style="vertical-align: middle;"></a></span>
+                        {{- else -}}
+                            &nbsp;|&nbsp;<span class="customer"><a href="{{ .Site.Params.footer.customer.url }}" target="_blank">{{ .Site.Params.footer.customer.name }}</a></span>
+                        {{- end -}}
+                    {{- end -}}
+                {{- end -}}
+
                 {{- /* ICP */ -}}
                 {{- with .Site.Params.footer.icp -}}
                     <span class="icp-splitter">&nbsp;|&nbsp;</span><br class="icp-br"/>
