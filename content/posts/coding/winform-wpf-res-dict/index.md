@@ -6,7 +6,7 @@ featuredImage: ""
 categories:
 - coding
 tags:
-- C#
+- CSharp
 - WPF
 ---
 
