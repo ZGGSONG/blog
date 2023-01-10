@@ -30,27 +30,32 @@ LanguageCode = "zh-CN"
     url = "/tags/"
     weight = 3
   [[menu.main]]
+    identifier = "projects"
+    name = "项目"
+    url = "/projects/"
+    weight = 4
+  [[menu.main]]
     identifier = "links"
     name = "友链"
     url = "/links/"
-    weight = 4
+    weight = 5
   [[menu.main]]
     identifier = "about"
     name = "关于"
     url = "/about/"
-    weight = 5
+    weight = 6
   [[menu.main]]
     identifier = "rss"
     pre = "<i class='icon-rss'></i>"
     url = "/index.xml"
     title = "RSS"
-    weight = 6
+    weight = 7
   [[menu.main]]
     identifier = "github"
     pre = "<i class='icon-github'></i>"
     url = "https://github.com/zggsong"
     title = "GitHub"
-    weight = 7
+    weight = 8
 
 [params]
   defaultTheme = "auto"  # 网站默认主题 ("light", "dark", "auto")
