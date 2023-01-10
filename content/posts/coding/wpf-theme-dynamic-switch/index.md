@@ -12,7 +12,7 @@ tags:
 
 ## 前言
 
-最近在 Windows 上开发的时候发现我太习惯用 Mac 上的一款翻译软件 Bob 非常方便，在 win 上我还没有找到类似的软件，既然我会写点 WPF 那就自己写一个吧。花了两天写了一个简单的实现划词翻译的功能，在家优化的时候女朋友来了句：”怎么就一个颜色，要是能变色就好点“。好吧，我还没有尝试过，这就试试主题切换。
+最近在 Windows 上开发的时候发现我太习惯用 Mac 上的一款翻译软件 Bob 非常方便，在 win 上我还没有找到类似的软件，既然我会写点 WPF 那就自己写一个吧。花了几天写了一个简单的实现划词翻译的功能，在家优化的时候女朋友来了句：“怎么就一个颜色，要是能变色就好点”。好吧，我还没有尝试过，这就试试主题切换。
 
 其实，写 WPF 的时候好多时候偷懒 Style 写在控件里面，这样不方便切换，理论上只要将所有 Style 提取到资源字典里，在给个按钮去切换不同主题的资源字典就可以实现主题切换功能，本质上实现起来很简单，本文仅记录。
 
@@ -49,12 +49,9 @@ Application.Current.Resources.MergedDictionaries[0].Source =
 	Application.Current.Resources.MergedDictionaries[0].Source
 	.ToString() == _ThemeDark ? new Uri(_ThemeDefault) : new Uri(_ThemeDark);
 
-
 private static readonly string _ThemeDark = "pack://application:,,,/STranslate;component/Style/Dark.xaml";
 private static readonly string _ThemeDefault = "pack://application:,,,/STranslate;component/Style/Default.xaml";
 ```
-
-> 更多详细代码可查看 [Github](https://github.com/ZGGSONG/STranslate/blob/main/STranslate/ViewModel/MainVM.cs)
 
 ## 额外
 
@@ -62,7 +59,7 @@ private static readonly string _ThemeDefault = "pack://application:,,,/STranslat
 
 由于涉及不同主题的图标，就不适合在下载 png、jpg 文件引入了，毕竟主题好看与否得一点点调试，最好还是下载 iconfont 字体文件，然后通过 textblock 的方式引入，只需要调整 forceground 即可，这样根据主题微调不同控件颜色就比较方便了。
 
-> 举个例子，在 [阿里巴巴矢量图标库](https://www.iconfont.cn/)中将图标添加至项目中，下载至本地，将 iconfont.ttf 添加到项目中，根据上一步下载文件中 html 中图标的代码引入图标即可
+> 举个例子，在 [阿里巴巴矢量图标库](https://www.iconfont.cn/) 中将图标添加至项目中，下载至本地，将 iconfont.ttf 添加到项目中，根据上一步下载文件中 html 中图标的代码引入图标即可
 
 ```XAML
 <!--引入字体文件-->
@@ -79,5 +76,5 @@ private static readonly string _ThemeDefault = "pack://application:,,,/STranslat
 
 ### SVG
 
-在上一步引入图标的时候，我发现想找到自己想要的图标是真的比较困难，所以我还是决定自己来画(pin)吧，可能是我电脑上的 ps 有点问题，根据[阿里巴巴矢量图标库的方法](https://www.iconfont.cn/help/detail)要么生成效果有问题，要么无法生成 SVG   
+在上一步引入图标的时候，我发现想找到自己想要的图标是真的比较困难，所以我还是决定自己来画 (pin) 吧，可能是我电脑上的 ps 有点问题，根据 [阿里巴巴矢量图标库的方法](https://www.iconfont.cn/help/detail) 要么生成效果有问题，要么无法生成 SVG   
 我是用的是随便找的一款 [在线 ps 工具](https://www.tuyitu.com/ps/sources/)，首先找到自己想要的 SVG 原图，就直接去 [ICONFINDER](https://www.iconfinder.com/) 或者别的地方找就行了，然后打开想要的直接留想要的，拼积木就好了
