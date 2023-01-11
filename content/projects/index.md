@@ -33,9 +33,9 @@ comment: false
 - 使用 DeepL 翻译
 - 支持动态主题切换
 - 支持多种结果复制（蛇形、小驼峰、大驼峰）
-- 除去离线语言数据包，软件整体仅 13.2MB
+- 除去截图离线语言数据包，软件仅 1MB 左右
 - 支持离线截图翻译（考虑实际情况及软件打包后大小，目前仅支持英文）
 
-https://github.com/ZGGSONG/STranslate
+https://github.com/zggsong/stranslate/
 
 ---

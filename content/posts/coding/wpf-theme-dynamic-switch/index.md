@@ -47,10 +47,10 @@ tags:
 ```C#
 Application.Current.Resources.MergedDictionaries[0].Source =
 	Application.Current.Resources.MergedDictionaries[0].Source
-	.ToString() == _ThemeDark ? new Uri(_ThemeDefault) : new Uri(_ThemeDark);
+	.ToString() == ThemeDark ? new Uri(ThemeDefault) : new Uri(ThemeDark);
 
-private static readonly string _ThemeDark = "pack://application:,,,/STranslate;component/Style/Dark.xaml";
-private static readonly string _ThemeDefault = "pack://application:,,,/STranslate;component/Style/Default.xaml";
+private const string ThemeDark = "pack://application:,,,/STranslate;component/Style/Dark.xaml";
+private const string ThemeDefault = "pack://application:,,,/STranslate;component/Style/Default.xaml";
 ```
 
 ## 额外
