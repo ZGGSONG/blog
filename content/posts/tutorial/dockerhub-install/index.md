@@ -11,7 +11,7 @@ tags:
 - rsshub
 ---
 
-> 上帝视角：不建议自建在国内服务器上，不少博客网站都被 Q 了，目前个人做法是直接通过 Cloudflare Workers 代理 dockerhub 官方提供的服务，每个月免费额度完全够用，免去维护成本
+> 上帝视角：不建议自建在国内服务器上，不少博客网站都被 Q 了，目前个人做法是直接通过 Cloudflare Workers 代理 [RSShub](https://rsshub.app/) 官方提供的服务，每个月免费额度完全够用，免去维护成本
 
 ## 前言
 
