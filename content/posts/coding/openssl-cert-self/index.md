@@ -56,7 +56,7 @@ openssl genrsa -out server.key 4096
 openssl req -new -key server.key -out server.csr
 ```
 
-> 生成 CSR 的过程中，会提示输入一些信息，其中一个提示是 Common Name (e.g. YOUR name)，这个非常重要，这一项应填入 FQDN(Fully Qualified Domain Name)完全合格域名/全称域名，如果您使用 SSL 加密保护网络服务器和客户端之间的数据流，举例被保护的网站是 `https://test.chinacloudsites.cn`那么此处 Common Name 应输入 `test.chinacloudsites.cn
+> 生成 CSR 的过程中，会提示输入一些信息，其中一个提示是 Common Name (e.g. YOUR name)，这个非常重要，这一项应填入 FQDN(Fully Qualified Domain Name)完全合格域名/全称域名，如果您使用 SSL 加密保护网络服务器和客户端之间的数据流，举例被保护的网站是 `https://test.chinacloudsites.cn`那么此处 Common Name 应输入 `test.chinacloudsites.cn`
 
 #### 签发证书
 
