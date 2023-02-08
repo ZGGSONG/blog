@@ -120,7 +120,7 @@ openssl verify -CAfile ca.crt client.crt
 
 ## 参考
 
-[「# OpenSsl 子命令 genrsa, rsa, req, x509」](https://blog.csdn.net/t990423909/article/details/120837032)
-[「# 自签名证书和 CA 证书的区别和制作、使用」](https://www.cnblogs.com/zhaobowen/p/13321578.html)
-[「# 如何用 OpenSSL 创建自签名证书」](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/application-gateway/aog-application-gateway-howto-create-self-signed-cert-via-openssl)
-[「# 秒懂 Https 之 CA 证书与自签名证书漫谈」](https://shusheng007.top/2020/07/25/1-3/)
+[「# OpenSsl 子命令 genrsa, rsa, req, x509」](https://blog.csdn.net/t990423909/article/details/120837032)  
+[「# 自签名证书和 CA 证书的区别和制作、使用」](https://www.cnblogs.com/zhaobowen/p/13321578.html)  
+[「# 如何用 OpenSSL 创建自签名证书」](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/application-gateway/aog-application-gateway-howto-create-self-signed-cert-via-openssl)  
+[「# 秒懂 Https 之 CA 证书与自签名证书漫谈」](https://shusheng007.top/2020/07/25/1-3/)  
