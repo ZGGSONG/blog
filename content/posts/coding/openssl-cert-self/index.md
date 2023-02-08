@@ -1,5 +1,5 @@
 ---
-title: "OpenSsl 自签名证书"
+title: "OpenSSL 自签名证书"
 date: 2023-02-08T16:26:47+08:00
 description: ""
 featuredImage: ""
