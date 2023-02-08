@@ -26,9 +26,11 @@ tags:
   - `pem` - 通常是 Base64 格式的
   - `crt`、`cer`、`der`- 通常是 DER 二进制格式的
   - [证书文件扩展名...](https://zh.wikipedia.org/wiki/X.509#%E8%AF%81%E4%B9%A6%E6%96%87%E4%BB%B6%E6%89%A9%E5%B1%95%E5%90%8D)
-    查看公钥的内容命令为：`openssl rsa -noout -text (-inform DER/PEM) -in cakey.key`
-    查看证书的内容命令为：`openssl x509 -noout -text (-inform der) -in cacert.crt`  
-    证书编码格式转换:
+    
+查看公钥的内容命令为：`openssl rsa -noout -text (-inform DER/PEM) -in cakey.key`
+    
+查看证书的内容命令为：`openssl x509 -noout -text (-inform der) -in cacert.crt`  
+    
 - PEM 转为 DER：`openssl x509 -in cacert.crt -outform der -out cacert.der`
 - DER 转为 PEM：`openssl x509 -in cert.crt -inform der -outform pem -out cacert.pem`
 
