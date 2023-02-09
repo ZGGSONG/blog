@@ -1,0 +1,11 @@
+#!/bin/bash
+
+git add .
+
+git commit -m "update blog"
+
+git pull
+
+git push
+
+echo "push code to github success..."
