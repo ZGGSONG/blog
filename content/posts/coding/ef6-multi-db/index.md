@@ -18,15 +18,16 @@ tags:
 
 ### Enable-Migrations
 
-由于在使用ef6进行数据库连接时都是通过`Enable-Migrations`来设置多个数据库上下文的迁移文件路径的，进行了如下命令输入：
+由于在使用 ef6 进行数据库连接时都是通过`Enable-Migrations`来设置多个数据库上下文的迁移文件路径的，进行了如下命令输入：
 
 ```shell
 Enable-Migrations -ContextTypeName ef_demo.PgSqlCodeFirstDbContext -MigrationsDirectory Magrations\pgsql
 ```
-> 其中`\` 不能打错否则发生错误  
+
+> 其中`\` 不能打错否则发生错误
 
 **ContextTypeName**：*DbContext*的位置，即 DbContext 的命名空间加上 DbContext 的名称  
-**MigrationsDirectory**：需要迁移到的目标文件夹  
+**MigrationsDirectory**：需要迁移到的目标文件夹
 
 同样另一个数据上下文进行设置
 
