@@ -1,5 +1,5 @@
 ---
-title: "Ef6 多数据库实现 CodeFirst | C#"
+title: "EF6 多DBContext迁移 | C#"
 date: 2023-02-10T10:59:52+08:00
 description: ""
 featuredImage: ""
