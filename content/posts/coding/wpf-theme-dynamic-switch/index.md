@@ -6,8 +6,8 @@ featuredImage: ""
 categories:
 - coding
 tags:
-- CSharp
-- WPF
+- csharp
+- wpf
 ---
 
 ## 前言
