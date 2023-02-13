@@ -23,6 +23,9 @@ tags:
 2. 仅服务端进行 TLS 加密
 3. 客户端、服务端都进行 TLS 加密
 
+> 注意: 在用 go 1.15 版本以上，用 gRPC 通过 TLS 建立安全连接时，会出现证书报错问题  
+> `rpc error: code = Unavailable desc = connection error: desc = “transport: authentication handshake failed: x509: certificate relies on legacy Common Name field, use SANs instead”`  
+
 ## 服务端加密
 
 ### 流程
