@@ -139,7 +139,7 @@ LanguageCode = "zh-CN"
     #   url = ""
 
     [params.footer.customer]
-      enable = true
+      enable = false
       name = "Travelling"
       url = "https://www.travellings.cn/go.html"
       useimg = false
