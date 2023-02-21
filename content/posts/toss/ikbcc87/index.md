@@ -18,7 +18,7 @@ tags:
 ## 对比
 调教前 | 调教后
 :--: | :--:
-[调教前按键音](https://cdn.jsdelivr.net/gh/zggsong/img_hosting/media/%E8%B0%83%E6%95%99%E5%89%8D.m4a) | [调教后按键音](https://cdn.jsdelivr.net/gh/zggsong/img_hosting/media/%E8%B0%83%E6%95%99%E5%90%8E.m4a)
+[调教前按键音](https://fastly.jsdelivr.net/gh/zggsong/img_hosting/media/%E8%B0%83%E6%95%99%E5%89%8D.m4a) | [调教后按键音](https://fastly.jsdelivr.net/gh/zggsong/img_hosting/media/%E8%B0%83%E6%95%99%E5%90%8E.m4a)
 ![](https://cdn.zggsong.cn/2021/06/23/a79ceed6817c2.JPG!webp) | ![](https://cdn.zggsong.cn/2021/06/23/bed2fcb69d294.JPG!webp)
 ## 准备工作
 
