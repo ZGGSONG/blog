@@ -36,6 +36,7 @@ CloudFlare Workers 每日免费请求次数有 10w 完全够用，只是因为�
 首先本地安装 wrangler，官方介绍 wrangler 是专为有兴趣使用 Cloudflare Workers 的人们设计的 CLI 工具。
 
 ```shell
+# 安装 wrangler CLI 和授权 wrangler 有的帐户。
 npm install -g @cloudflare/wrangler
 wrangler login
 
