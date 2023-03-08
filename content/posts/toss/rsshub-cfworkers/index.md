@@ -1,5 +1,5 @@
 ---
-title: "RSSHub With Cf Workers"
+title: "RSSHub With Cloudflare Workers"
 date: 2022-11-28T16:56:17+08:00
 description: "使用 cf workers 反向代理 rsshub.app"
 featuredImage: ""
