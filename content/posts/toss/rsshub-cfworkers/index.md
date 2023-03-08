@@ -33,20 +33,14 @@ CloudFlare Workers 每日免费请求次数有 10w 完全够用，只是因为�
 > 2、域名  
 > 3、Reflare
 
-首先本地安装 wrangler，官方介绍 wrangler 是专为有兴趣使用 Cloudflare Workers 的人们设计的 CLI 工具。
+[官方文档](https://reflare.js.org/deploy/) 有详细的介绍说明，我这边简单介绍一下我感觉用的快速方便的办法
 
 ```shell
-# 安装 wrangler CLI 和授权 wrangler 有的帐户。
-npm install -g @cloudflare/wrangler
-wrangler login
+# 下载模板
+git clone https://github.com/xiaoyang-sde/reflare-template.git
 
-# 生成一个新项目 从 reflare-template 并安装依赖项。
-wrangler generate reflare-app https://github.com/xiaoyang-sde/reflare-template
-cd reflare-app
-npm install
-
-#安装的 reflare 包。
-npm install reflare
+# 打开后修改先下载依赖，建议使用 yarn
+yarn install
 ```
 
 编辑 `src/index.ts` 下面举例：
@@ -80,17 +74,7 @@ addEventListener('fetch', (event) => {
 
 - 本地运行
 ```shell
-npm run dev
-
-yarn dev
-```
-
-- 构建
-
-```shell
-npm run build
-
-yarn build
+yarn build && yarn dev
 ```
 
 随后只需要将 `dist/worker.js` 内容复制到 cloudflare workers 上即可
@@ -99,7 +83,7 @@ yarn build
 
 ## 总结
 
-不仅可以代理 rsshub，理论上可以代理所有国内无法访问的国外公共服务，不过由于 cloudflare 给每个人的免费账户由请求上限，所以最好还是搭建个人服务，每天有 100,000 次请求的量，个人完全够用，公开出来可能被恶意刷流量。
+不仅可以代理 rsshub，理论上可以代理所有国内无法访问的国外公共服务，只需要修改模板中 `src/index.ts` 里面的配置项即可，具体如何修改参考 [官方文档](https://reflare.js.org/deploy/)，不过由于 cloudflare 给每个人的免费账户由请求上限，所以最好还是搭建个人服务，每天有 100,000 次请求的量，个人完全够用，公开出来可能被恶意刷流量。
 
 --- 
 
