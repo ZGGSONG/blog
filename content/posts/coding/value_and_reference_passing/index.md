@@ -64,7 +64,7 @@ func tt(s []int, m map[int]string, i *int) {
 
 ### slice 结构
 
-![[Pasted image 20230309104134.png]]
+![slice结构](https://cdn.zggsong.cn/2023/03/09/d13ac4ba3c834.png)
 
 `slice`是一个包含三个字段的结构体，它们分别是：
 
