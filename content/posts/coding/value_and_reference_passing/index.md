@@ -31,15 +31,20 @@ func main() {
    fmt.Printf("[main slice] %p\t%v\n", &slice, slice)
    fmt.Printf("[main map] %p\t%v\n", &m, m)
    fmt.Printf("[main pointer] %p\t%v\n", &i, *i)
-   tt(slice, m, i)
-}
-
-func tt(s []int, m map[int]string, i *int) {
-   fmt.Printf("[tt slice] %p\t%v\n", &s, s)
-   fmt.Printf("[tt map] %p\t%v\n", &m, m)
-   fmt.Printf("[tt pointer] %p\t%v\n", &i, *i)
-   s[0] = 999
-   m
+   tt(slice, m, i)  
+   fmt.Printf("[main slice] %p\t%v\n", &slice, slice)  
+   fmt.Printf("[main map] %p\t%v\n", &m, m)  
+   fmt.Printf("[main pointer] %p\t%v\n", &i, *i)  
+}  
+  
+func tt(s []int, m map[int]string, i *int) {  
+   fmt.Printf("[tt slice] %p\t%v\n", &s, s)  
+   fmt.Printf("[tt map] %p\t%v\n", &m, m)  
+   fmt.Printf("[tt pointer] %p\t%v\n", &i, *i)  
+   s[0] = 999  
+   m[0] = "b"  
+   a := 999  
+   *i = a  
 }
 
 //output
