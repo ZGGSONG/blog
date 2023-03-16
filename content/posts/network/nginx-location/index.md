@@ -1,6 +1,6 @@
 ---
 title: "nginx 反向代理 location 问题"
-date: 2023-03-16T15:09:34+08:00
+date: 2022-03-16T15:09:34+08:00
 description: "总是分不清反向代理后的 location 与 proxy_pass 后加不加/的问题，网上查出来有很多人写的都有问题，怕不是没测试过，记录一下，方便查询"
 featuredImage: ""
 categories:
