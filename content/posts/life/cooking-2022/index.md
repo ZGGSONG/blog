@@ -15,7 +15,7 @@ tags:
 ![起初](https://cdn.zggsong.cn/2023/03/20/IMG_1140.JPG!webp)
 
 
-![稳定发挥](https://cdn.zggsong.cn/2023/03/20/IMG_1140.JPG!webp)
+![稳定发挥](https://cdn.zggsong.cn/2023/03/20/IMG_1141.JPG!webp)
 
 
 ![常规](https://cdn.zggsong.cn/2023/03/20/IMG_1142.JPG!webp)
