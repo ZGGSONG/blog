@@ -26,6 +26,8 @@ tags:
 
 > 房东这弱电箱，已经被我的三台设备撑得满满当当，好在经过一段时间使用，温度也还好。
 
+![弱电箱](https://cdn.zggsong.cn/2023/03/29/d077ad8abe63a.png)
+
 ## OpenWRT
 
 其实 N1 性能完全 OK，直到我在群晖虚拟机上跑过 openwrt 后才清晰地认识到，还有 220+ CPU 好吧只能说将将够用。目前我的 N1 是用的恩山论坛 [flippy](https://www.right.com.cn/forum/space-uid-285101.html) 编译的固件，不过有点洁癖，回头有空根据自己需求重新编译。如果自己编译 OpenWRT 需求的小伙伴，可以看看 [PeterX](https://p3terx.com/archives/build-openwrt-with-github-actions.html) 的这篇文章。
