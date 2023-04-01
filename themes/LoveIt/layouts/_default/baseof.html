@@ -18,7 +18,16 @@
     <body header-desktop="{{ .Site.Params.header.desktopMode }}" header-mobile="{{ .Site.Params.header.mobileMode }}">
         {{- /* Check theme isDark before body rendering */ -}}
         {{- $theme := .Site.Params.defaulttheme -}}
-        <script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('{{ $theme }}' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : '{{ $theme }}' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+        <script type="text/javascript">
+        // (window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('{{ $theme }}' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : '{{ $theme }}' === 'dark')) && document.body.setAttribute('theme', 'dark');
+            // 初始化 theme-color(顶栏) 颜色
+            const isDark = (window.localStorage && localStorage.getItem('theme')) ?
+                (localStorage.getItem('theme') === 'dark' ? true : false) :
+                ('{{ $theme }}' === 'auto' ? window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches : '{{ $theme }}' === 'dark');
+
+            document.body.setAttribute('theme', isDark ? 'dark' : 'light');
+            document.querySelector('meta[name="theme-color"]').setAttribute("content", isDark ? "#272728" : "#fafafa");
+        </script>
 
         <div id="mask"></div>
 

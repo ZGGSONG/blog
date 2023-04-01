@@ -64,19 +64,21 @@ class Theme {
         this.util.forEach(
             document.getElementsByClassName("theme-switch"),
             ($themeSwitch) => {
-                $themeSwitch.addEventListener(
-                    "click",
-                    () => {
-                        if (document.body.getAttribute("theme") === "dark")
-                            document.body.setAttribute("theme", "light");
-                        else document.body.setAttribute("theme", "dark");
-                        this.isDark = !this.isDark;
-                        window.localStorage &&
-                            localStorage.setItem("theme", this.isDark ? "dark" : "light");
-                        for (let event of this.switchThemeEventSet) event();
-                    },
-                    false
-                );
+                $themeSwitch.addEventListener("click", () => {
+                    const currentTheme = document.body.getAttribute("theme");
+                    const newTheme = currentTheme === "dark" ? "light" : "dark";
+                    const newMetaColor = newTheme === 'dark' ? '#272728' : '#fafafa';   // 添加theme-color(safari顶栏颜色)
+                  
+                    document.body.setAttribute("theme", newTheme);
+                    document.querySelector('meta[name="theme-color"]').setAttribute("content", newMetaColor);
+                  
+                    this.isDark = !this.isDark;
+                    window.localStorage && localStorage.setItem("theme", this.isDark ? "dark" : "light");
+                  
+                    for (let event of this.switchThemeEventSet) {
+                      event();
+                    }
+                  }, false);
             }
         );
     }
