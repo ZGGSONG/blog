@@ -1,6 +1,7 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "zggsong",
+    "short_name": "zggsong",
+    "start_url": "https://zggsong.com/",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
