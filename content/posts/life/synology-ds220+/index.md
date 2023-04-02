@@ -23,7 +23,7 @@ NAS(Network Attached Storage) 于我而言我一个非常大的作用就是完�
 
 虽说不能外接 SSD 当缓存，但是我也没这个需求呀，内网 1G 够用了，只是可惜了双网口，我的路由器不支持链路聚合。
 
-![配置](https://cdn.zggsong.cn/2022/04/22/da0006cb3805e.png!webp)
+![配置](https://cdn.zggsong.cn/2022/04/22/da0006cb3805e.png)
 
 虽说官方写了最大只支持 8G，但我插了跟三星的 8G 和板载的 2G 组成 10G 用的感觉还不错。当然只要没有兼容性问题还可以更大，网上还有的网友插了根 16G 的组成 18G 内存，我感觉对于 J4025 上 18G Dock 不必。  
 另外装了两块 4T 的硬盘组 Raid1 大小对我来说刚刚好。
@@ -44,11 +44,11 @@ Synology Drive 的同步功能不要太好用，OneDrive 可以走开了
 HA 没装 Docker 版，还不是因为死活装不上 HACS，很神奇走软路由全局就是装不上，还好社群有套件  
 Infuse 真香搭配上 Plex 自动搜刮海报，可惜没有公网 IP，果然不能贪图移动宽带的便宜，外面用不了  
 
-![Infuse](https://cdn.zggsong.cn/2022/04/22/fd70ed199985e.jpeg!webp)  
+![Infuse](https://cdn.zggsong.cn/2022/04/22/fd70ed199985e.jpeg)  
 
 frp 接上自己的小水管虽然速度不快，好在稳定，[Let's Encrypt 泛域名证书](https://www.moewah.com/archives/1301.html)+反向代理 公网访问家里的 nas 更加安全  
 
-![docker](https://cdn.zggsong.cn/2022/04/22/bbe88482a9d3b.png!webp)
+![docker](https://cdn.zggsong.cn/2022/04/22/bbe88482a9d3b.png)
 
 ## 总结
 

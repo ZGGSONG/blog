@@ -16,7 +16,7 @@ tags:
 
 [网站安全监测](https://myssl.com)
 
-![before](https://cdn.zggsong.cn/2020/07/24/5e84bd7f0507a.png!webp)
+![before](https://cdn.zggsong.cn/2020/07/24/5e84bd7f0507a.png)
 
 作为一个资深强迫症患者，忍不了了！开整~
 
@@ -39,28 +39,28 @@ tags:
 - 点击修改`网站`-`配置文件`（非宝塔用户可直接修改`/usr/local/nginx/conf/nginx.conf`)
 - 找到`ssl_protocols`，在末尾添加 TLSv1.3，删除 TLSv1
 
-![](https://cdn.zggsong.cn/2020/07/24/3f29b83725799.png!webp)
+![](https://cdn.zggsong.cn/2020/07/24/3f29b83725799.png)
 
 - 回到 [Myssl](https://myssl.com) 刷新报告即可看见
 
-![PCI DDS](https://cdn.zggsong.cn/2020/07/24/bdeb8ee34a008.png!webp)
+![PCI DDS](https://cdn.zggsong.cn/2020/07/24/bdeb8ee34a008.png)
 
-![TLS](https://cdn.zggsong.cn/2020/07/24/8ebb648256dc7.png!webp)
+![TLS](https://cdn.zggsong.cn/2020/07/24/8ebb648256dc7.png)
 
 ## 开启 HSTS
 
 - 点击修改`网站`-`配置文件`（非宝塔用户可直接修改`/usr/local/nginx/conf/nginx.conf`)
 - 添加`add_header Strict-Transport-Security "max-age=63072000; includeSubdomains; preload";`即可
 
-![HSTS](https://cdn.zggsong.cn/2020/07/24/2507f92c9752f.png!webp)
+![HSTS](https://cdn.zggsong.cn/2020/07/24/2507f92c9752f.png)
 
 - 然后查看控制台信息，头部就已经包含 HSTS 信息了
 
-![Chrome_HSTS](https://cdn.zggsong.cn/2020/07/24/7c212ffc49a60.png!webp)
+![Chrome_HSTS](https://cdn.zggsong.cn/2020/07/24/7c212ffc49a60.png)
 
 - **舒服了**
 
-![A+](https://cdn.zggsong.cn/2020/07/24/f8ab9cd52f382.png!webp)
+![A+](https://cdn.zggsong.cn/2020/07/24/f8ab9cd52f382.png)
 
 ## 参考链接
 

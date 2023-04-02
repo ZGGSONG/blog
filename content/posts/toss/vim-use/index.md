@@ -12,7 +12,7 @@ tags:
 
 ## 展示
 
-![VIM](https://cdn.zggsong.cn/2020/04/25/b5b8a995cd6ce.png!webp)
+![VIM](https://cdn.zggsong.cn/2020/04/25/b5b8a995cd6ce.png)
 
 配置文件如下 [github-vim](https://github.com/ZGGSONG/vim)
 

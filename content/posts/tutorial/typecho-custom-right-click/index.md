@@ -14,7 +14,7 @@ tags:
 
 ## 效果
 
-![自定义右键](https://cdn.zggsong.cn/2020/07/23/3195f7441a050.png!webp)
+![自定义右键](https://cdn.zggsong.cn/2020/07/23/3195f7441a050.png)
 
 ## 使用
 

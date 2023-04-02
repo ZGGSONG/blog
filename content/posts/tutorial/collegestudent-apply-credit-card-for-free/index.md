@@ -36,9 +36,9 @@ tags:
 
 > 本人是使用这个方法，也怀疑过这个平台，好在试水过后没啥问题。
 
-![](https://cdn.zggsong.cn/2020/04/07/5ed769e93fdbd.jpg!webp)
+![](https://cdn.zggsong.cn/2020/04/07/5ed769e93fdbd.jpg)
 
-![](https://cdn.zggsong.cn/2020/04/07/f69d86ab8eb59.jpg!webp)
+![](https://cdn.zggsong.cn/2020/04/07/f69d86ab8eb59.jpg)
 
 
 第二种方法是直接去最近的中国银行营业厅，告诉工作人员申请外币借记卡 (visa 或者 mastercard) 即可。（就是普通的办理一张银行卡，只不过是外币卡而已，工作人员可能会让你再三确认要办理的卡，因为办理这个的人不多）
@@ -55,15 +55,15 @@ tags:
 
 流程如下
 
-![1](https://cdn.zggsong.cn/2020/04/07/509299ddb37de.jpg!webp)
+![1](https://cdn.zggsong.cn/2020/04/07/509299ddb37de.jpg)
 
-![2](https://cdn.zggsong.cn/2020/04/07/de000f2b18ac7.jpg!webp)
+![2](https://cdn.zggsong.cn/2020/04/07/de000f2b18ac7.jpg)
 
-![3](https://cdn.zggsong.cn/2020/04/07/672521f2b6d36.jpg!webp)
+![3](https://cdn.zggsong.cn/2020/04/07/672521f2b6d36.jpg)
 
-![4](https://cdn.zggsong.cn/2020/04/07/7e6016901baee.jpg!webp)
+![4](https://cdn.zggsong.cn/2020/04/07/7e6016901baee.jpg)
 
-![5](https://cdn.zggsong.cn/2020/04/07/5dac99dd57180.jpg!webp)
+![5](https://cdn.zggsong.cn/2020/04/07/5dac99dd57180.jpg)
 
 
 综上即可完成购汇，当然，需要换成人民币的话，选择结汇即可。然后就可以薅羊毛了

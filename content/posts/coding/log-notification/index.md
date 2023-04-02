@@ -31,7 +31,7 @@ log.SetFormatter(&log.TextFormatter{
 
 Go 写主要为了方便，没有了 C#的界面，软件长久运行，有效的通知就很有必要，我选择的是 `Windows` 的 `Toast`通知方式  
 
-![](https://cdn.zggsong.cn/2022/08/19/9cd563a2b4c30.png!webp)
+![](https://cdn.zggsong.cn/2022/08/19/9cd563a2b4c30.png)
 
 这是我使用的是 [https://github.com/go-toast/toast/tree/v1](https://github.com/go-toast/toast/tree/v1) 根据仓库的示例代码即可快速运行起来，如下代码仅做记录
 
