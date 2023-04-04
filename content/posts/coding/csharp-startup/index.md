@@ -11,9 +11,11 @@ tags:
 
 ## 前言
 
-在创建开机自启时一般常见的有两种方式，一种是通过创建二进制文件的快捷方式放到 Windows 开机启动目录下，另外一种则是把自启动信息写入注册表，但是这种方式需要管理员权限，所以我选择第一种方式
+在创建开机自启时一般常见的有两种方式:  
+1. 一种是通过创建二进制文件的快捷方式放到 Windows 开机启动目录下
+2. 另外一种则是把自启动信息写入注册表，但是这种方式需要管理员权限
 
-而在第一种方式中也存在两种情况，一种是仅对当前用户生效的开机启动，一种是对所有用户生效的开机启动分别对应的目录为
+所以我选择第一种方式,而在第一种方式中也存在两种情况，一种是仅对当前用户生效的开机启动，一种是对所有用户生效的开机启动分别对应的目录为
 
 ```txt
 #当前用户
@@ -99,6 +101,10 @@ public static string GetAppPathViaShortCut(string shortCutPath)
 ## 完整代码
 
 完整代码已经封装好，可直接引入使用
+
+> 需要引入一个 COM 组件 `Windows Script Host Object Model`
+
+1、基础版本
 
 ```C#
 using System;
@@ -265,7 +271,80 @@ namespace DemoApp.Util
         #endregion
     }
 }
+```
 
+2、LINQ 优化版
+
+```C#
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using IWshRuntimeLibrary;
+
+namespace DemoApp.Util
+{
+    public static class Util
+    {
+        private static readonly string StartUpPath = Environment.GetFolderPath(Environment.SpecialFolder.Startup);
+        private static readonly string appPath = Assembly.GetEntryAssembly().Location;
+        private static readonly string appShortcutPath = Path.Combine(StartUpPath, Path.GetFileNameWithoutExtension(appPath) + ".lnk");
+
+        public static void SetStartup() => ShortCutCreate();
+
+        public static bool IsStartup() => GetDirectoryFileList(StartUpPath).Any(shortcut => GetAppPathViaShortCut(shortcut) == appPath);
+
+        public static void UnSetStartup() => ShortCutDelete(appPath, StartUpPath);
+
+        private static string GetAppPathViaShortCut(string shortCutPath)
+        {
+            try
+            {
+                var shell = new WshShell();
+                var shortcut = (IWshShortcut)shell.CreateShortcut(shortCutPath);
+                return shortcut.TargetPath;
+            }
+            catch
+            {
+                return null;
+            }
+        }
+
+        private static List<string> GetDirectoryFileList(string target) => Directory.GetFiles(target, "*.lnk").ToList();
+
+        private static bool ShortCutExist(string path, string target) => GetDirectoryFileList(target).Any(shortcut => GetAppPathViaShortCut(shortcut) == path);
+
+        private static bool ShortCutDelete(string path, string target)
+        {
+            var shortcuts = GetDirectoryFileList(target).Where(shortcut => GetAppPathViaShortCut(shortcut) == path);
+            foreach (var shortcut in shortcuts)
+            {
+                System.IO.File.Delete(shortcut);
+            }
+            return shortcuts.Any();
+        }
+
+        private static bool ShortCutCreate()
+        {
+            ShortCutDelete(appPath, StartUpPath);
+            try
+            {
+                var shell = new WshShell();
+                var shortcut = (IWshShortcut)shell.CreateShortcut(appShortcutPath);
+                shortcut.TargetPath = Assembly.GetEntryAssembly().Location;
+                shortcut.Arguments = string.Empty;
+                shortcut.WorkingDirectory = AppDomain.CurrentDomain.SetupInformation.ApplicationBase;
+                shortcut.Save();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+    }
+}
 ```
 
 ## 参考
