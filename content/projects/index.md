@@ -26,12 +26,12 @@ comment: false
   </a>
 </p>
 
-惠普暗影精灵 2 Pro 黑苹果 EFI，最新更新到 MacOS 11.2.3
+惠普暗影精灵 2 Pro 黑苹果 EFI，最新更新到 MacOS 11.2.3，OC 0.65
 
 - 修复电源 DSDT，电量正确显示
 - 声卡，蓝牙正常使用
 - CPU 睿频成功，防止处于高频发热
-- HDMI 为独显输出，只能[`使用 USB 转显示输出`](../posts/life/external-display-hackintosh/)
+- HDMI 为独显输出，且无法驱动，只能使用 [`USB 转显示输出`](../posts/life/external-display-hackintosh/)
 
 https://github.com/zggsong/HP-OMEN-15-ax214TX-Hackintosh/
 
@@ -90,7 +90,7 @@ https://github.com/zggsong/stranslate/
 
 - 打包桌面平台二进制文件，开箱即用
 - 支持 Docker 部署
-- 对应也写了 Typescript 版本，已部署 [`Severless`](https://deeplx.deno.dev/) 平台，可直接使用(不保证高峰期可用性)
+- 对应也写了 Typescript 版本，已部署 [`Serverless`](https://deeplx.deno.dev/) 平台，可直接使用（高峰人数过多 api 可能失效）
 
 https://github.com/zggsong/deepl-api/
 
@@ -138,11 +138,11 @@ https://github.com/zggsong/message/
 
 在疫情期间，通过抓包，使用 Golang 和 ios 快捷指令实现的一键自动上传当日健康码、行程卡截图打卡
 
-> 2022年12月13日已放开，该项目完成使命
+> 2022 年 12 月 13 日已放开，该项目完成使命
 
 - 需要使用到 [`ios 快捷指令`](https://www.icloud.com/shortcuts/866921319e5444658264be027e19ec62)，仅支持 ios 用户
 - 支持 [`docker`](https://hub.docker.com/r/zggsong/luxshare-daily-report) 部署
-- 支持打卡消息通知(Mail、Bark)，且支持配置，支持配置热更新
+- 支持打卡消息通知 (Mail、Bark)，且支持配置，支持配置热更新
 
 https://github.com/zggsong/luxshare-daily-report/
 
