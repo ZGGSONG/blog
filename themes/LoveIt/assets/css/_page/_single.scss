@@ -141,6 +141,23 @@
       [theme=dark] & b, [theme=dark] & strong {
         color: $single-link-color-dark;
       }
+
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    //hyperlink style
+    a.post-link::after {
+      content: '';
+      width: 35%;
+      height: 2px;
+      display: block;
+      margin-top: -.3em;
+      background-color: rgb(81, 148, 186);
+      transition: all cubic-bezier(.77,0,.18,1) 400ms;
+    }
+    a.post-link:hover::after {
+      width: 100%;
     }
 
     [theme=dark] a:hover b, [theme=dark] a:hover strong {
