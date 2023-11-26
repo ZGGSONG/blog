@@ -220,7 +220,7 @@ LanguageCode = "zh-CN"
 
   #  网站分析配置
   [params.analytics]
-      enable = true
+      enable = false
       # Matomo Analytics
       [params.analytics.matomo]
         url = ""
