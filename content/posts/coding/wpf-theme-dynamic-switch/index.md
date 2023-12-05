@@ -78,3 +78,5 @@ private const string ThemeDefault = "pack://application:,,,/STranslate;component
 
 在上一步引入图标的时候，我发现想找到自己想要的图标是真的比较困难，所以我还是决定自己来画 (pin) 吧，可能是我电脑上的 ps 有点问题，根据 [阿里巴巴矢量图标库的方法](https://www.iconfont.cn/help/detail) 要么生成效果有问题，要么无法生成 SVG   
 我是用的是随便找的一款 [在线 ps 工具](https://www.tuyitu.com/ps/sources/)，首先找到自己想要的 SVG 原图，就直接去 [ICONFINDER](https://www.iconfinder.com/) 或者别的地方找就行了，然后打开想要的直接留想要的，拼积木就好了
+
+> 测试发现需要使用[阿里巴巴矢量图标库](https://www.iconfont.cn)下载的图标拼接才能实现拼图，否则上传至阿里云矢量图库时拼接部分不显示
