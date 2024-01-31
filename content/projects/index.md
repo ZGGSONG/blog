@@ -57,13 +57,11 @@ https://github.com/zggsong/HP-OMEN-15-ax214TX-Hackintosh/
 使用 WPF 开发的一款即开即用、即用即走的翻译工具
 
 - 即开即用，全局快捷键唤醒
-- 使用 DeepL 翻译
+- 默认自带免费 DeepL 翻译
+- 支持自建API，保证稳定性
 - 支持输入翻译、划词翻译、截图翻译
-- 支持动态主题切换
-- 支持多种结果复制（蛇形、小驼峰、大驼峰）
-- 软件占用资源小，后台静默内存占用 4MB 左右
-- 除去截图离线语言数据包，软件仅 1MB 左右
-- 支持离线截图翻译（考虑实际情况及软件打包后大小，目前仅支持英文）
+- 离线OCR、静默OCR
+- 支持多家云平台API接入(OpenAI、Gemini、百度、腾讯、阿里、有道...)
 
 https://github.com/zggsong/stranslate/
 
