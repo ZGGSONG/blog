@@ -43,7 +43,7 @@
                         {{- if eq .Site.Params.footer.cdnprovider.img "" -}}
                         &nbsp;|&nbsp;<span class="cdnprovider"><a href="{{ .Site.Params.footer.cdnprovider.url }}" target="_blank">{{ .Site.Params.footer.cdnprovider.name }}</a></span>
                         {{- else -}}
-                        &nbsp;|&nbsp;<span class="cdnprovider"><a href="{{ .Site.Params.footer.cdnprovider.url }}" target="_blank"><img width="50" src="{{ .Site.Params.footer.cdnprovider.img }}"></a></span>
+                        &nbsp;|&nbsp;<span class="cdnprovider"><a href="{{ .Site.Params.footer.cdnprovider.url }}" target="_blank"><img width="50" style="vertical-align: bottom;" src="{{ .Site.Params.footer.cdnprovider.img }}"></a></span>
                         {{- end -}}
                     {{- end -}}
                 {{- end -}}
