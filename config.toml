@@ -140,10 +140,11 @@ LanguageCode = "zh-CN"
     license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
     statistic = """"""
 
-    # [params.footer.cdnprovider]
-    #   enable = false
-    #   name = ""
-    #   url = ""
+    [params.footer.cdnprovider]
+      enable = true
+      name = "又拍云"
+      img = "https://cdn.zggsong.cn/2020/04/25/975ee81fab6b1.png"
+      url = "https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"
 
     [params.footer.customer]
       enable = false
