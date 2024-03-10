@@ -141,7 +141,7 @@ LanguageCode = "zh-CN"
     statistic = """"""
 
     [params.footer.cdnprovider]
-      enable = true
+      enable = false
       name = "又拍云"
       img = "https://cdn.zggsong.cn/2020/04/25/975ee81fab6b1.png"
       url = "https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"
