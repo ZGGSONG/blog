@@ -9,6 +9,110 @@ keywords:
 comment: false
 ---
 
+## STranslate
+
+<p>
+  <a href="https://github.com/ZGGSONG/STranslate/stargazers">
+    <img src="https://img.shields.io/github/stars/ZGGSONG/STranslate?style=flat-square">
+  </a>
+  <a href="https://github.com/ZGGSONG/STranslate/network/members">
+    <img src="https://img.shields.io/github/forks/ZGGSONG/STranslate?style=flat-square">
+  </a>
+  <a href="https://github.com/ZGGSONG/STranslate/releases">
+    <img src="https://img.shields.io/github/release/ZGGSONG/STranslate?style=flat-square">
+  </a>
+  <a href="https://github.com/ZGGSONG/STranslate/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/ZGGSONG/STranslate?style=flat-square">
+  </a>
+</p>
+
+使用 WPF 开发的一款即开即用、即用即走的翻译工具
+
+- 即用即走，全局快捷键操作
+- 默认自带多家免费翻译服务
+- 支持大量翻译、OCR、TTS云服务接入
+- 支持输入翻译、划词翻译、截图翻译
+- 支持静默OCR、静默TTS、替换翻译、回译等特色功能
+
+https://github.com/ZGGSONG/STranslate/
+
+---
+
+## LangIndicator
+
+<p>
+  <a href="https://github.com/ZGGSONG/LangIndicator/stargazers">
+    <img src="https://img.shields.io/github/stars/ZGGSONG/LangIndicator?style=flat-square">
+  </a>
+  <a href="https://github.com/ZGGSONG/LangIndicator/network/members">
+    <img src="https://img.shields.io/github/forks/ZGGSONG/LangIndicator?style=flat-square">
+  </a>
+  <a href="https://github.com/ZGGSONG/LangIndicator/releases">
+    <img src="https://img.shields.io/github/release/ZGGSONG/LangIndicator?style=flat-square">
+  </a>
+  <a href="https://github.com/ZGGSONG/LangIndicator/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/ZGGSONG/LangIndicator?style=flat-square">
+  </a>
+</p>
+
+Windows平台的输入法中英文切换指示器
+
+- 快捷显示当前输入法
+
+https://github.com/ZGGSONG/LangIndicator/
+
+---
+
+## ScreenGrab
+
+<p>
+  <a href="https://github.com/ZGGSONG/ScreenGrab/stargazers">
+    <img src="https://img.shields.io/github/stars/ZGGSONG/ScreenGrab?style=flat-square">
+  </a>
+  <a href="https://github.com/ZGGSONG/ScreenGrab/network/members">
+    <img src="https://img.shields.io/github/forks/ZGGSONG/ScreenGrab?style=flat-square">
+  </a>
+  <a href="https://github.com/ZGGSONG/ScreenGrab/releases">
+    <img src="https://img.shields.io/github/release/ZGGSONG/ScreenGrab?style=flat-square">
+  </a>
+  <a href="https://www.nuget.org/packages/ScreenGrab/">
+    <img src="https://img.shields.io/nuget/dt/ScreenGrab.svg?style=flat-square&label=nuget">
+  </a>
+  <a href="https://github.com/ZGGSONG/ScreenGrab/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/ZGGSONG/ScreenGrab?style=flat-square">
+  </a>
+</p>
+
+WPF Screenshot Library
+
+https://github.com/ZGGSONG/ScreenGrab/
+
+---
+
+## WeChatOcr
+
+<p>
+  <a href="https://github.com/ZGGSONG/WeChatOcr/stargazers">
+    <img src="https://img.shields.io/github/stars/ZGGSONG/WeChatOcr?style=flat-square">
+  </a>
+  <a href="https://github.com/ZGGSONG/WeChatOcr/network/members">
+    <img src="https://img.shields.io/github/forks/ZGGSONG/WeChatOcr?style=flat-square">
+  </a>
+  <a href="https://github.com/ZGGSONG/WeChatOcr/releases">
+    <img src="https://img.shields.io/github/release/ZGGSONG/WeChatOcr?style=flat-square">
+  </a>
+  <a href="https://www.nuget.org/packages/WeChatOcr/">
+    <img src="https://img.shields.io/nuget/dt/WeChatOcr.svg?style=flat-square&label=nuget">
+  </a>
+</p>
+
+- 微信OCR的C#封装，引入即用
+- 支持完全不安装微信直接使用
+
+https://github.com/ZGGSONG/WeChatOcr/
+
+---
+
 ## HP-OMEN-15-ax214TX-Hackintosh
 
 <p>
@@ -37,37 +141,7 @@ https://github.com/zggsong/HP-OMEN-15-ax214TX-Hackintosh/
 
 ---
 
-## STranslate
-
-<p>
-  <a href="https://github.com/ZGGSONG/STranslate/stargazers">
-    <img src="https://img.shields.io/github/stars/ZGGSONG/STranslate?style=flat-square">
-  </a>
-  <a href="https://github.com/ZGGSONG/STranslate/network/members">
-    <img src="https://img.shields.io/github/forks/ZGGSONG/STranslate?style=flat-square">
-  </a>
-  <a href="https://github.com/ZGGSONG/STranslate/releases">
-    <img src="https://img.shields.io/github/release/ZGGSONG/STranslate?style=flat-square">
-  </a>
-  <a href="https://github.com/ZGGSONG/STranslate/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/ZGGSONG/STranslate?style=flat-square">
-  </a>
-</p>
-
-使用 WPF 开发的一款即开即用、即用即走的翻译工具
-
-- 即开即用，全局快捷键唤醒
-- 默认自带免费 DeepL 翻译
-- 支持自建API，保证稳定性
-- 支持输入翻译、划词翻译、截图翻译
-- 离线OCR、静默OCR
-- 支持多家云平台API接入(OpenAI、Gemini、百度、腾讯、阿里、有道...)
-
-https://github.com/zggsong/stranslate/
-
----
-
-## deepl-api
+## deepl-api（已归档）
 
 <p>
   <a href="https://github.com/ZGGSONG/deepl-api/stargazers">
