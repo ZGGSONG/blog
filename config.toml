@@ -56,12 +56,12 @@ LanguageCode = "zh-CN"
     url = "https://github.com/zggsong"
     title = "GitHub"
     weight = 8
-  [[menu.main]]
-    identifier = "leetcode-doc"
-    pre = "<i class='icon-codepen'></i>"
-    url = "https://zggsong.github.io/leetcode-doc"
-    title = "leetcode-doc"
-    weight = 9
+  # [[menu.main]]
+  #   identifier = "leetcode-doc"
+  #   pre = "<i class='icon-codepen'></i>"
+  #   url = "https://zggsong.github.io/leetcode-doc"
+  #   title = "leetcode-doc"
+  #   weight = 9
 
 [params]
   defaultTheme = "auto"  # 网站默认主题 ("light", "dark", "auto")

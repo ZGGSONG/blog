@@ -10,7 +10,7 @@ toc: false
 
 ## Introduce
 
-努力写 C# 和 Golang 的菜鸟，努力成为会写客户端的全栈工程师，同时也感觉 Rust 有点意思，就是学起来比较费头发，go on...
+当前正在用 C# WPF 进行桌面软件开发工作...
 
 ## Contact
 
