@@ -19,11 +19,11 @@ tags:
 前几个月咪咕出的`Kindle`免费拿，白嫖党该上车的都上车了，能否成功下车，就看着 100 天了。但是事情一多，难免就会出现忘了打卡的情况，400 买这么老款的`Kindle`血亏，毕竟咸鱼也才一两百，那脚本打卡岂不是很香！
 
 
-![](https://cdn.zggsong.cn/2020/06/10/136fe79f3891f.jpg)
+![](./assets/136fe79f3891f.jpg)
 
-![](https://cdn.zggsong.cn/2020/06/14/26a52e7079a49.jpg)
+![](./assets/26a52e7079a49.jpg)
 
-![](https://cdn.zggsong.cn/2020/07/02/b6840bb59e81d.jpeg)
+![](./assets/b6840bb59e81d.jpeg)
 
 
 ## 实操
@@ -71,9 +71,9 @@ crontab -e
 > `网易 MuMu`为例
 
 
-![打开操作录屏](https://cdn.zggsong.cn/2020/07/02/f77c5615d975b.png)
+![打开操作录屏](./assets/f77c5615d975b.png)
 
-![新建录屏操作](https://cdn.zggsong.cn/2020/07/02/af1b97287a9f4.png)
+![新建录屏操作](./assets/af1b97287a9f4.png)
 
 建立完成之后保存即可
 

@@ -17,11 +17,11 @@ tags:
 
 效果一：
 
-![效果一](https://cdn.zggsong.cn/2020/07/23/d3008bbdda1ff.gif))
+![效果一](./assets/d3008bbdda1ff.gif))
 
 效果二：
 
-![效果二](https://cdn.zggsong.cn/2020/07/23/ea4d7d2eb1191.gif))
+![效果二](./assets/ea4d7d2eb1191.gif))
 
 
 > 个人感觉效果一不会有那么强的侵入感
@@ -58,9 +58,9 @@ https://fastly.jsdelivr.net/gh/zggsong/cdn/blog/layer3.1.1.js
 2.点击下载  
 3.上传至服务器  
 
-![下载](https://cdn.zggsong.cn/2020/07/23/ab6c40beb500b.png)
+![下载](./assets/ab6c40beb500b.png)
 
-![选择](https://cdn.zggsong.cn/2020/07/23/2a38a2fa3f787.png)
+![选择](./assets/2a38a2fa3f787.png)
 
 
 ## 效果二

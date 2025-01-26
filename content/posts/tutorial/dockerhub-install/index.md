@@ -24,20 +24,20 @@ tags:
 - 首先安装 Docker：软件商店一键安装
 - 搜索镜像：`diygod/rsshub`
 
-![Docker RSSHub](https://cdn.zggsong.cn/2020/08/02/8efcf3e49e9c8.png)
+![Docker RSSHub](./assets/8efcf3e49e9c8.png)
 
 - 创建容器：端口、目录映射和 CPU 权重
 
-![new docker](https://cdn.zggsong.cn/2020/08/02/523f65bc847dd.png)
+![new docker](./assets/523f65bc847dd.png)
 
 - 随后新建一个网站：目录要和上面设置的保持一致
 
-![site](https://cdn.zggsong.cn/2020/08/02/fbc3cf3e988d4.png)
+![site](./assets/fbc3cf3e988d4.png)
 
 - 删除`/www/wwwroot/rsshub/`根目录内容后下载 RSSHub 源码 (**注意解压且放置在 rsshub 根目录放置**)[点击下载](https://github.com/DIYgod/RSSHub/archive/master.zip)
 - 然后设置反向代理即可
 
-![方向代理](https://cdn.zggsong.cn/2020/08/02/b93013cf91d9b.png)
+![方向代理](./assets/b93013cf91d9b.png)
 
 - 最后再添加上 SSL 证书即可
 

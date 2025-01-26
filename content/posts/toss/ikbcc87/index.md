@@ -19,7 +19,7 @@ tags:
 调教前 | 调教后
 :--: | :--:
 [调教前按键音](https://fastly.jsdelivr.net/gh/zggsong/img_hosting/media/%E8%B0%83%E6%95%99%E5%89%8D.m4a) | [调教后按键音](https://fastly.jsdelivr.net/gh/zggsong/img_hosting/media/%E8%B0%83%E6%95%99%E5%90%8E.m4a)
-![](https://cdn.zggsong.cn/2021/06/23/a79ceed6817c2.JPG) | ![](https://cdn.zggsong.cn/2021/06/23/bed2fcb69d294.JPG)
+![](./assets/a79ceed6817c2.JPG) | ![](./assets/bed2fcb69d294.JPG)
 ## 准备工作
 
 - 3mm 无边圆灯
@@ -31,7 +31,7 @@ tags:
 - 夹心棉、底壳消音棉
 软妹币 138:
 
-![工具](https://cdn.zggsong.cn/2021/06/29/30c16977612e1.jpg)
+![工具](./assets/30c16977612e1.jpg)
 
 ## 正式调教
 
@@ -43,7 +43,7 @@ tags:
 - PCB 和钢板上贴特氟龙胶带
 - 安装卫星轴
 
-![卫星轴](https://cdn.zggsong.cn/2021/06/29/243275d0ce633.jpg)
+![卫星轴](./assets/243275d0ce633.jpg)
 
 然后便是用电烙铁拆下所有的轴体，这里踩了坑，原厂锡熔点比较高，这里有两种方法
 - 设置温度 450℃
@@ -51,21 +51,21 @@ tags:
 
 一般来说 300℃或者 350℃就可以了，而且短时间加热，千万别高温还放很久，不然很容易掉焊盘！！！
 
-![后果](https://cdn.zggsong.cn/2021/06/29/6f768567c4b5e.jpg)
+![后果](./assets/6f768567c4b5e.jpg)
 
 随后便是无聊的润轴过程，每颗轴体拆开以后润滑接触部位以及弹簧，尤其是接触弹簧片的那两个小脚，润滑后会极大的提升手感（个人感觉）
 
-![润轴](https://cdn.zggsong.cn/2021/06/29/44ac06fcca507.jpg)
+![润轴](./assets/44ac06fcca507.jpg)
 
 再就是定位版和 PCB 中间加上夹心面，装轴，焊轴。
 
 焊灯之前用小电池检查有没有坏灯以免返工浪费时间精力，焊的时候只需要用刀头加热两个焊点将灯推过去就好了，后面看需要补锡再补即可。
 
-![加灯](https://cdn.zggsong.cn/2021/06/29/82f759b7d1959.jpg)
+![加灯](./assets/82f759b7d1959.jpg)
 
 最后加上底壳消音棉套上壳子就可以完工了
 
-![效果](https://cdn.zggsong.cn/2021/06/29/ae64b147d1e91.jpg)
+![效果](./assets/ae64b147d1e91.jpg)
 
 ## 灯效
 | 快捷键 | 效果 |
@@ -85,4 +85,4 @@ Fn+↓|降低光源亮度
 
 后来逛咸鱼看光头哥的微光键帽挺好看的，60 包邮。EMMMM～真香
 
-![微光键帽](https://cdn.zggsong.cn/2021/06/29/7f9cc9bcf2001.jpg)
+![微光键帽](./assets/7f9cc9bcf2001.jpg)

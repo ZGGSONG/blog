@@ -22,7 +22,7 @@ git init --bare --shared
 
 ## 创建共享目录
 
-![local_git_sharedir](https://cdn.zggsong.cn/2022/12/17/aa92bb42a9a2d.png)
+![local_git_sharedir](./assets/aa92bb42a9a2d.png)
 
 ## 添加至本地仓库
 

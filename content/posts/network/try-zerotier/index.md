@@ -144,7 +144,7 @@ Zerotier Moon 的目的是加速 Zerotier 的连接，让虚拟网络更稳定�
 
 先看下有无 moon 节点的前后延迟对比
 
-![moon_compare](https://cdn.zggsong.cn/2022/04/26/6edd7461b644d.png)
+![moon_compare](./assets/6edd7461b644d.png)
 
 我是选择我的国内小水管，同样是选择 [docker 安装](https://hub.docker.com/r/jonnyan404/zerotier-moon)
 
@@ -162,7 +162,7 @@ docker run --name zerotier-moon -d --restart always -p 9993:9993 -p 9993:9993/ud
 
 1.群晖上比较简单：将保存的`moons.d`目录放到群晖 Zerotier 宿主机的目录下后重启容器即可  
 
-![moons.d](https://cdn.zggsong.cn/2022/04/25/120625605d6f3.png)
+![moons.d](./assets/120625605d6f3.png)
 
 2.windows 添加 moon 节点，首先在 moon 服务器服务器获取`moon_id`，其实就是保存的`moons.d`目录下的文件名去除前 6 个 0 的字符串  
 也可以通过下面的命令查看`moon_id`
@@ -179,7 +179,7 @@ zerotier-cli orbit moon_id moon_id
 #查看
 zerotier-cli listnetpeers
 ```
-![win-zerotier](https://cdn.zggsong.cn/2022/04/25/da5a8ac0457e0.png)
+![win-zerotier](./assets/da5a8ac0457e0.png)
 
 ## 总结
 
@@ -187,11 +187,11 @@ zerotier-cli listnetpeers
 
 4G 速度
 
-![4G](https://cdn.zggsong.cn/2022/04/25/79ed213924339.png)
+![4G](./assets/79ed213924339.png)
 
 有线连接速度  
 
-![有线连接](https://cdn.zggsong.cn/2022/04/26/3fac8776bbf44.png)
+![有线连接](./assets/3fac8776bbf44.png)
 
 **参考**
 

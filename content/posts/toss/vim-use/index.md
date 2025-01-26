@@ -12,7 +12,7 @@ tags:
 
 ## 展示
 
-![VIM](https://cdn.zggsong.cn/2020/04/25/b5b8a995cd6ce.png)
+![VIM](./assets/b5b8a995cd6ce.png)
 
 配置文件如下 [github-vim](https://github.com/ZGGSONG/vim)
 
@@ -368,7 +368,7 @@ endfunc
 
 ## vim 键位图
 
-![vim 键位图](https://cdn.zggsong.cn/2020/03/21/59e35de779eb5.gif)
+![vim 键位图](./assets/59e35de779eb5.gif)
 
 ## vim 系统剪贴板
 

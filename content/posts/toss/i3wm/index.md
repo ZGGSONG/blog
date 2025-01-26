@@ -12,7 +12,7 @@ tags:
 
 ## 最终效果
 
-![moment](https://cdn.zggsong.cn/2020/03/21/575bd46184484.png)
+![moment](./assets/575bd46184484.png)
 
 i3wm，一个窗口管理器，琐碎的事情比较多，前后配置了两天次才完成。emmmmm~还是油管教程靠谱～～～
 

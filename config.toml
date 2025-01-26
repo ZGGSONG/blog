@@ -140,18 +140,19 @@ LanguageCode = "zh-CN"
     license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
     statistic = """"""
 
+    # 彻底禁用
     [params.footer.cdnprovider]
       enable = false
-      name = "又拍云"
-      img = "https://cdn.zggsong.cn/2020/04/25/975ee81fab6b1.png"
-      url = "https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"
+      name = "cdnprovider"
+      img = ""
+      url = ""
 
     [params.footer.customer]
       enable = false
       name = "Travelling"
       url = "https://www.travellings.cn/go.html"
       useimg = false
-      img = "https://cdn.zggsong.cn/2023/01/06/19d329da7f9ae.svg"
+      # img = ""  # 图片 URL
       # img = "https://www.travellings.cn/assets/logo.svg"
 
   # Section (所有文章) 页面配置
@@ -228,8 +229,8 @@ LanguageCode = "zh-CN"
         id = ""
       # Umami Analytics
       [params.analytics.umami]
-        url = "https://ana.zggsong.cn/umami.js"
-        id = "6f849a79-c149-4e9d-9e58-185a60469518"
+        url = ""
+        id = ""
 
   [params.cdn]
     # CDN 数据文件名称, 默认不启用
